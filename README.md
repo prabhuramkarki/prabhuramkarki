@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Reactjs,Nodejs,Expressjs & MongoDB**
 
-- 👨‍💻 All of my projects are available at [prabhuramkarki.com.np](prabhuramkarki.com.np)
+- 👨‍💻 All of my projects are available at [www.prabhuramkarki.com.np](www.prabhuramkarki.com.np)
 
 - 📫 How to reach me **prabhuramkarki@hotmail.com**
 
