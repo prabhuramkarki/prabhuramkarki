@@ -9,7 +9,7 @@
 
 - 👨‍💻 All of my projects are available at **www.prabhuramkarki.com.np**
 
-- 📫 How to reach me **prabhuram.karki@outlook.com**
+- 📫 How to reach me **prabhuramkarki07@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
