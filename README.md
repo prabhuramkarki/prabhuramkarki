@@ -5,7 +5,9 @@
 
 <p align="left"> <a href="https://twitter.com/prabhuramkarki_" target="blank"><img src="https://img.shields.io/twitter/follow/prabhuramkarki_?logo=twitter&style=for-the-badge" alt="prabhuramkarki_" /></a> </p>
 
-- 🌱 I’m currently working with **Vue.js, Nuxt.js, Quasar.js & Laravel**
+- 🌱 I’m currently working with **Vue.js,Nuxt.js,Quasar.js & Laravel**
+  
+- 🌱 I also work with **React.js,Node.js,Express.js & MongoDB**
 
 - 👨‍💻 All of my projects are available at **www.prabhuramkarki.com.np**
 
