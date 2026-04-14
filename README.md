@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Prabhuram Karki</h1> 
-<h3 align="center">A passionate frontend developer from Nepal</h3>
+<h3 align="center">A passionate fullstack developer from Nepal</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prabhuramkarki&label=Profile%20views&color=0e75b6&style=flat" alt="prabhuramkarki" /> </p>
 
 <p align="left"> <a href="https://twitter.com/prabhuramkarki_" target="blank"><img src="https://img.shields.io/twitter/follow/prabhuramkarki_?logo=twitter&style=for-the-badge" alt="prabhuramkarki_" /></a> </p>
 
-- 🌱 I’m currently learning **Reactjs,Nodejs,Expressjs & MongoDB**
+- 🌱 I’m currently working with **Vue.js, Nuxt.js, Quasar.js & Laravel**
 
 - 👨‍💻 All of my projects are available at **www.prabhuramkarki.com.np**
 
