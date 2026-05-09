@@ -109,7 +109,3 @@
 </div>
 
 ---
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=prabhuramkarki&label=Profile+Views&color=1F6FEB&style=flat-square" />
-</div>
