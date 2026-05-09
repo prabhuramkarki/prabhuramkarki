@@ -13,14 +13,6 @@
 
 ---
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer+%F0%9F%9A%80;Vue+%7C+React+%7C+Laravel+%7C+Node.js;Building+elegant+web+experiences;Open+to+collaborate+%F0%9F%A4%9D" alt="Typing SVG" />
-</div>
-
-<br/>
-
----
-
 ## ◈ Connect with me
 
 <div align="center">
