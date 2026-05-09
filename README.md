@@ -1,33 +1,27 @@
+<h1 align="center">Hi 👋, I'm Prabhuram Karki</h1> 
+<h3 align="center">A passionate fullstack developer from Nepal</h3>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=prabhuramkarki&label=Profile%20views&color=0e75b6&style=flat" alt="prabhuramkarki" /> </p>
+<p align="left"> <a href="https://twitter.com/prabhuramkarki_" target="blank"><img src="https://img.shields.io/twitter/follow/prabhuramkarki_?logo=twitter&style=for-the-badge" alt="prabhuramkarki_" /></a> </p>
+
+- 🌱 I'm currently working with **Vue.js,Nuxt.js,Quasar.js & Laravel**
+  
+- 🌱 I also work with **React.js,Node.js,Express.js & MongoDB**
+
+- 👨‍💻 All of my projects are available at **[www.prabhuramkarki.com.np](https://www.prabhuramkarki.com.np)**
+
+- 📫 How to reach me **prabhuramkarki07@gmail.com**
+
+---
+
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=120&section=header&animation=fadeIn" width="100%"/>
-
-</div>
-
-<div align="center">
-
-```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║        const developer = {                                    ║
-║          name: "Prabhuram Karki",                             ║
-║          location: "🇳🇵 Nepal",                               ║
-║          passion: "Building things that matter",              ║
-║          status: "Always shipping something new"              ║
-║        };                                                     ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
-```
-
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer+%F0%9F%9A%80;Vue+%7C+React+%7C+Laravel+%7C+Node.js;Building+elegant+web+experiences;Open+to+collaborate+%F0%9F%A4%9D" alt="Typing SVG" />
 </div>
 
 <br/>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer+%F0%9F%9A%80;Vue+%7C+React+%7C+Laravel+%7C+Node.js;Building+elegant+web+experiences;Open+to+collaborate+%F0%9F%A4%9D" alt="Typing SVG" />
-</div>
+---
 
-<br/>
+## ◈ Connect with me
 
 <div align="center">
   <a href="https://twitter.com/prabhuramkarki_">
@@ -46,27 +40,6 @@
     <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" />
   </a>
 </div>
-
-<br/>
-
----
-
-## ◈ About
-
-```yaml
-currently_working_with:
-  frontend: [Vue.js, Nuxt.js, Quasar.js, React.js]
-  backend:  [Laravel, Node.js, Express.js]
-  database: [MongoDB, MySQL]
-
-interests:
-  - Clean architecture & scalable systems
-  - Developer experience & tooling
-  - Building products people love
-
-reach_me_at: prabhuramkarki07@gmail.com
-portfolio:   www.prabhuramkarki.com.np
-```
 
 ---
 
@@ -138,9 +111,5 @@ portfolio:   www.prabhuramkarki.com.np
 ---
 
 <div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=prabhuramkarki&label=Profile+Views&color=1F6FEB&style=flat-square" />
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=80&section=footer" width="100%"/>
-
+  <img src="https://komarev.com/ghpvc/?username=prabhuramkarki&label=Profile+Views&color=1F6FEB&style=flat-square" />
 </div>
