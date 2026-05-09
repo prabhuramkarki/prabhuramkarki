@@ -1,27 +1,28 @@
 <div align="center">
 
-<!-- Animated wave header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1F6FEB,100:58A6FF&height=200&section=header&text=Prabhuram%20Karki&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Fullstack%20Developer%20%7C%20Nepal%20%F0%9F%8F%94%EF%B8%8F&descAlignY=58&descSize=18&animation=fadeIn"/>
+██████╗ ██████╗  █████╗ ██████╗ ██╗  ██╗██╗   ██╗██████╗  █████╗ ███╗   ███╗
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗██║  ██║██║   ██║██╔══██╗██╔══██╗████╗ ████║
+██████╔╝██████╔╝███████║██████╔╝███████║██║   ██║██████╔╝███████║██╔████╔██║
+██╔═══╝ ██╔══██╗██╔══██║██╔══██╗██╔══██║██║   ██║██╔══██╗██╔══██║██║╚██╔╝██║
+██║     ██║  ██║██║  ██║██████╔╝██║  ██║╚██████╔╝██║  ██║██║  ██║██║ ╚═╝ ██║
+╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝
 
-<!-- Animated typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+full-stack+web+experiences;Vue+%2B+Nuxt+%2B+Laravel+enthusiast;React+%2B+Node+%2B+MongoDB+developer;Crafting+from+the+Himalayas+%F0%9F%8F%94%EF%B8%8F;Let's+build+something+great+together!" alt="Typing SVG" />
+### `< Fullstack Developer />` &nbsp;·&nbsp; Nepal 🏔️
 
-<br/>
+*Building scalable web experiences from the Himalayas*
 
 [![Twitter](https://img.shields.io/badge/—%20@prabhuramkarki_-%231DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/prabhuramkarki_)
 [![LinkedIn](https://img.shields.io/badge/—%20prabhuramkarki-%230A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/prabhuramkarki)
 [![Portfolio](https://img.shields.io/badge/—%20prabhuramkarki.com.np-%23111?style=flat-square&logo=firefox&logoColor=white)](https://www.prabhuramkarki.com.np)
 [![Email](https://img.shields.io/badge/—%20prabhuramkarki07@gmail.com-%23EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:prabhuramkarki07@gmail.com)
 
-![Profile Views](https://komarev.com/ghpvc/?username=prabhuramkarki&label=profile+views&color=1F6FEB&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=prabhuramkarki&label=profile+views&color=0d1117&style=flat-square)
 
 </div>
 
 ---
 
 <br/>
-
-<img align="right" width="370" src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216438d4cbf559fac4166/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" alt="Coding GIF"/>
 
 ```ts
 const prabhuram = {
@@ -30,18 +31,11 @@ const prabhuram = {
   primary   : ["Vue.js", "Nuxt.js", "Quasar.js", "Laravel"],
   secondary : ["React.js", "Node.js", "Express.js", "MongoDB"],
   currently : "Crafting seamless full-stack web experiences",
-  available : true,
   portfolio : "https://www.prabhuramkarki.com.np",
 };
 ```
 
-- 🔭 &nbsp;Working with **Vue.js, Nuxt.js, Quasar & Laravel**
-- ⚡ &nbsp;Also proficient in **React.js, Node.js & MongoDB**
-- 🌍 &nbsp;All projects at **[prabhuramkarki.com.np](https://www.prabhuramkarki.com.np)**
-- 📬 &nbsp;Reach me at **prabhuramkarki07@gmail.com**
-- 🚀 &nbsp;Open to interesting **collaborations & opportunities**
-
-<br clear="right"/>
+<br/>
 
 ---
 
@@ -118,44 +112,6 @@ const prabhuram = {
 
 ---
 
-## ◈ &nbsp;Contribution Snake
-
-> ⚙️ **Setup required:** To enable the animated contribution snake, add this GitHub Action to your profile repo at `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-*Once the Action runs, uncomment the line below:*
-
-<!-- <img src="https://github.com/prabhuramkarki/prabhuramkarki/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" /> -->
-
-<br/>
-
----
-
 <div align="center">
 
 *Open to interesting opportunities & collaborations*
@@ -164,7 +120,6 @@ jobs:
 
 <br/>
 
-<!-- Animated footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:1F6FEB,100:0d1117&height=120&section=footer&animation=fadeIn"/>
+`— Let's build something great together —`
 
 </div>
