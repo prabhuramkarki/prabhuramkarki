@@ -123,7 +123,7 @@ From schema design in **MySQL / MongoDB** to deployment on **Azure / Firebase** 
 <table>
 <tr>
 <td align="right" width="140"><sub><b>FRONTEND</b></sub></td>
-<td><img src="https://skillicons.dev/icons?i=vue,nuxtjs,quasar,react,ts,js,tailwind,redux&theme=dark" alt="Frontend"/></td>
+<td><img src="https://skillicons.dev/icons?i=vue,nuxtjs,react,ts,js,tailwind,redux&theme=dark" alt="Frontend"/></td>
 </tr>
 <tr>
 <td align="right"><sub><b>BACKEND</b></sub></td>
