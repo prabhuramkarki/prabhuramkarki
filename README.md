@@ -39,8 +39,8 @@ const prabhuram = {
   primary    : ["Vue", "Nuxt", "Quasar", "Laravel"],
   alsoShips  : ["React", "React Native", "Node", "Express", "MongoDB"],
   focus      : "Clean architecture, fast UIs, maintainable APIs",
-  currently  : "[WHAT_YOU_ARE_BUILDING_NOW]",
-  learning   : "[WHAT_YOU_ARE_LEARNING]",
+  currently  : "Native Windows Runtime For Linux",
+  learning   : "Rust",
   openTo     : ["Freelance", "Full-time roles", "Open-source collabs"],
 };
 ```
