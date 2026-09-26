@@ -85,7 +85,7 @@ From schema design in **MySQL / MongoDB** to deployment on **Azure / Firebase** 
 <br/>
 
 <!-- ═══════════════════════════════  PROJECTS  ═══════════════════════════════ -->
-
+<!--
 ## ◈ &nbsp;Featured Work
 
 <table>
@@ -108,6 +108,7 @@ From schema design in **MySQL / MongoDB** to deployment on **Azure / Firebase** 
 </td>
 </tr>
 </table>
+-->
 
 <!-- Optional: swap the tables above for pinned-repo cards
 <a href="https://github.com/prabhuramkarki/[REPO_NAME]"><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=prabhuramkarki&repo=[REPO_NAME]&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9"/></a>
@@ -141,7 +142,7 @@ From schema design in **MySQL / MongoDB** to deployment on **Azure / Firebase** 
 <br/>
 
 <!-- ═══════════════════════════════  STATS  ═══════════════════════════════ -->
-
+<!--
 ## ◈ &nbsp;Activity
 
 <div align="center">
@@ -149,10 +150,11 @@ From schema design in **MySQL / MongoDB** to deployment on **Azure / Firebase** 
 <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=prabhuramkarki&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&include_all_commits=true&count_private=true&rank_icon=github" height="160" alt="GitHub stats"/>
 &nbsp;
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=prabhuramkarki&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" height="160" alt="Top languages"/>
-
+-->
 <img src="https://streak-stats.demolab.com?user=prabhuramkarki&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1F6FEB&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&dates=8B949E&sideLabels=8B949E&sideNums=E6EDF3" width="85%" alt="Streak"/>
 
 <br/><br/>
+
 
 <!-- Snake animation: needs the GitHub Action (see instructions). Remove this block if you skip it. -->
 <picture>
