@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-labelledby="title desc">
-<title id="title">Recent public GitHub activity</title><desc id="desc">Public events returned between 2026-09-20 and 2026-10-19: 40. GitHub retains at most 300 events for 30 days. Events are not commits or contributions. 2026-09-26: 7; 2026-09-28: 1; 2026-09-30: 14; 2026-10-16: 15; 2026-10-17: 1; 2026-10-19: 2</desc>
+<title id="title">Recent public GitHub activity</title><desc id="desc">Public events returned between 2026-09-20 and 2026-10-19: 41. GitHub retains at most 300 events for 30 days. Events are not commits or contributions. 2026-09-26: 7; 2026-09-28: 1; 2026-09-30: 14; 2026-10-16: 15; 2026-10-17: 1; 2026-10-19: 3</desc>
 <style>.signal{animation:signal 7s linear infinite}.cursor{animation:cursor 3s ease-in-out infinite}@keyframes signal{to{stroke-dashoffset:-120}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style>
 <rect x="0.5" y="0.5" width="599" height="329" rx="16" fill="#F6F8FA" stroke="#CBD5E1"/>
 <text x="30" y="44" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700" fill="#17283B" text-anchor="start">Work in the open</text>
@@ -12,10 +12,10 @@
 <rect x="210.0" y="134.67" width="13.0" height="93.33" rx="2" fill="#087F8C" stroke="none"/>
 <rect x="498.0" y="128.0" width="13.0" height="100.0" rx="2" fill="#087F8C" stroke="none"/>
 <rect x="516.0" y="221.33" width="13.0" height="6.67" rx="2" fill="#087F8C" stroke="none"/>
-<rect x="552.0" y="214.67" width="13.0" height="13.33" rx="2" fill="#087F8C" stroke="none"/>
+<rect x="552.0" y="208.0" width="13.0" height="20.0" rx="2" fill="#087F8C" stroke="none"/>
 <text x="30" y="259" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="400" fill="#526477" text-anchor="start">2026-09-20</text>
 <text x="570" y="259" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="400" fill="#526477" text-anchor="end">2026-10-19</text>
-<text x="30" y="114" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#0969DA" text-anchor="start">40 events in this snapshot</text>
+<text x="30" y="114" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#0969DA" text-anchor="start">41 events in this snapshot</text>
 <text x="30" y="291" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#526477" text-anchor="start">30-day feed · at most 300 events · not contributions</text>
 <text x="30" y="315" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#526477" text-anchor="start">No bar = no returned event; the API can omit activity.</text>
 </svg>
