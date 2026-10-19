@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+<title id="title">ManduCart v2</title><desc id="desc">A storefront connected to an application API. Product engineering / Vue + Laravel. Illustration, not a product screenshot.</desc>
+<style>.signal{animation:signal 7s linear infinite}.cursor{animation:cursor 3s ease-in-out infinite}@keyframes signal{to{stroke-dashoffset:-120}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style>
+<rect x="0.5" y="0.5" width="959" height="259" rx="16" fill="#0D1117" stroke="#303D4D"/>
+<rect x="590" y="18" width="351" height="224" rx="10" fill="#1C2430" stroke="#303D4D"/>
+<text x="34" y="45" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#39C5CF" text-anchor="start">Product engineering / Vue + Laravel</text>
+<text x="32" y="106" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="700" fill="#E6EDF3" text-anchor="start">ManduCart v2</text>
+<text x="34" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#A0ADBC" text-anchor="start">A storefront connected to an application API.</text>
+<path d="M34 185H548" stroke="#303D4D" stroke-width="1.5" fill="none" />
+<text x="34" y="222" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A0ADBC" text-anchor="start">STOREFRONT  /  API  /  CATALOG</text>
+<rect x="611" y="41" width="311" height="176" rx="7" fill="#161B22" stroke="#303D4D"/>
+<path d="M611 77H922" stroke="#303D4D" stroke-width="1.5" fill="none" />
+<text x="627" y="66" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#58A6FF" text-anchor="start">manducart</text>
+<rect x="629" y="94" width="75" height="75" rx="5" fill="#1C2430" stroke="#303D4D"/>
+<path d="M649 117l12-8h12l12 8-8 10-4-3v27h-12v-27l-4 3Z" stroke="#39C5CF" stroke-width="1.5" fill="none" />
+<path d="M632 186h55" stroke="#303D4D" stroke-width="3" fill="none" />
+<rect x="723" y="94" width="75" height="75" rx="5" fill="#1C2430" stroke="#303D4D"/>
+<path d="M743 117l12-8h12l12 8-8 10-4-3v27h-12v-27l-4 3Z" stroke="#39C5CF" stroke-width="1.5" fill="none" />
+<path d="M726 186h55" stroke="#303D4D" stroke-width="3" fill="none" />
+<rect x="817" y="94" width="75" height="75" rx="5" fill="#1C2430" stroke="#303D4D"/>
+<path d="M837 117l12-8h12l12 8-8 10-4-3v27h-12v-27l-4 3Z" stroke="#39C5CF" stroke-width="1.5" fill="none" />
+<path d="M820 186h55" stroke="#303D4D" stroke-width="3" fill="none" />
+<text x="614" y="239" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="400" fill="#A0ADBC" text-anchor="start">CATALOG SCHEMATIC · NOT A SCREENSHOT</text>
+</svg>

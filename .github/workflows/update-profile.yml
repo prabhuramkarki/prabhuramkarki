@@ -1,0 +1,46 @@
+name: Refresh public profile dashboard
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: public-profile-dashboard
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'prabhuramkarki/prabhuramkarki' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Check public data collector
+        run: |
+          python3 scripts/test_update_stats.py
+          python3 scripts/test_render_assets.py
+
+      - name: Collect public data and render dashboard
+        run: python3 scripts/update_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changed dashboard assets
+        shell: bash
+        run: |
+          git add -- assets/dashboard
+          if git diff --cached --quiet; then
+            echo "Public dashboard is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh public profile dashboard"
+          git push origin HEAD:main

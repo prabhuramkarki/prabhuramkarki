@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+<title id="title">Easy Invoice</title><desc id="desc">From invoice images to structured records. Document processing / React + Django. Illustration, not a product screenshot.</desc>
+<style>.signal{animation:signal 7s linear infinite}.cursor{animation:cursor 3s ease-in-out infinite}@keyframes signal{to{stroke-dashoffset:-120}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style>
+<rect x="0.5" y="0.5" width="959" height="259" rx="16" fill="#0D1117" stroke="#303D4D"/>
+<rect x="590" y="18" width="351" height="224" rx="10" fill="#1C2430" stroke="#303D4D"/>
+<text x="34" y="45" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#39C5CF" text-anchor="start">Document processing / React + Django</text>
+<text x="32" y="106" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="700" fill="#E6EDF3" text-anchor="start">Easy Invoice</text>
+<text x="34" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#A0ADBC" text-anchor="start">From invoice images to structured records.</text>
+<path d="M34 185H548" stroke="#303D4D" stroke-width="1.5" fill="none" />
+<text x="34" y="222" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A0ADBC" text-anchor="start">IMAGE  /  OCR  /  FIELDS  /  CSV</text>
+<rect x="614" y="42" width="98" height="158" rx="4" fill="#161B22" stroke="#303D4D"/>
+<path d="M630 66h65" stroke="#303D4D" stroke-width="2" fill="none" />
+<path d="M630 86h53" stroke="#303D4D" stroke-width="2" fill="none" />
+<path d="M630 106h65" stroke="#303D4D" stroke-width="2" fill="none" />
+<path d="M630 126h53" stroke="#303D4D" stroke-width="2" fill="none" />
+<path d="M630 146h65" stroke="#303D4D" stroke-width="2" fill="none" />
+<path d="M630 166h53" stroke="#303D4D" stroke-width="2" fill="none" />
+<path d="M727 119H772" stroke="#39C5CF" stroke-width="2" fill="none" />
+<path d="M762 109l10 10-10 10" stroke="#39C5CF" stroke-width="2" fill="none" />
+<rect x="790" y="70" width="132" height="118" rx="4" fill="#161B22" stroke="#303D4D"/>
+<text x="802" y="94" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#58A6FF" text-anchor="start">number</text>
+<text x="802" y="120" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#58A6FF" text-anchor="start">date</text>
+<text x="802" y="146" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#58A6FF" text-anchor="start">vendor</text>
+<text x="802" y="172" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#58A6FF" text-anchor="start">total</text>
+<path d="M608 117H720" stroke="#58A6FF" stroke-width="2" fill="none" />
+<text x="614" y="224" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="400" fill="#A0ADBC" text-anchor="start">ILLUSTRATIVE OCR FLOW</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+<title id="title">Code Shell</title><desc id="desc">A coding agent at home in the terminal. Developer tooling / Rust. Illustration, not a product screenshot.</desc>
+<style>.signal{animation:signal 7s linear infinite}.cursor{animation:cursor 3s ease-in-out infinite}@keyframes signal{to{stroke-dashoffset:-120}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style>
+<rect x="0.5" y="0.5" width="959" height="259" rx="16" fill="#F6F8FA" stroke="#CBD5E1"/>
+<rect x="590" y="18" width="351" height="224" rx="10" fill="#EAF0F6" stroke="#CBD5E1"/>
+<text x="34" y="45" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#087F8C" text-anchor="start">Developer tooling / Rust</text>
+<text x="32" y="106" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="700" fill="#17283B" text-anchor="start">Code Shell</text>
+<text x="34" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#526477" text-anchor="start">A coding agent at home in the terminal.</text>
+<path d="M34 185H548" stroke="#CBD5E1" stroke-width="1.5" fill="none" />
+<text x="34" y="222" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#526477" text-anchor="start">CLI  /  CORE  /  PROVIDERS  /  TOOLS</text>
+<rect x="610" y="39" width="311" height="183" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+<text x="628" y="68" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" font-weight="400" fill="#087F8C" text-anchor="start">code-shell &gt;</text>
+<text x="628" y="105" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#526477" text-anchor="start">prompt</text>
+<path d="M697 100H894" stroke="#0969DA" stroke-width="3" fill="none" />
+<text x="628" y="140" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#526477" text-anchor="start">plan</text>
+<path d="M697 135H857" stroke="#0969DA" stroke-width="3" fill="none" />
+<text x="628" y="175" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#526477" text-anchor="start">tools</text>
+<rect x="697" y="158" width="51" height="25" rx="4" fill="#EAF0F6" stroke="#CBD5E1"/>
+<path d="M706 171h32" stroke="#087F8C" stroke-width="2" fill="none" />
+<rect x="762" y="158" width="51" height="25" rx="4" fill="#EAF0F6" stroke="#CBD5E1"/>
+<path d="M771 171h32" stroke="#087F8C" stroke-width="2" fill="none" />
+<rect x="827" y="158" width="51" height="25" rx="4" fill="#EAF0F6" stroke="#CBD5E1"/>
+<path d="M836 171h32" stroke="#087F8C" stroke-width="2" fill="none" />
+<text x="628" y="207" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#526477" text-anchor="start">permission → execution</text>
+</svg>

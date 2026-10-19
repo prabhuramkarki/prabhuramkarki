@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="535" viewBox="0 0 600 535" role="img" aria-labelledby="title desc">
+<title id="title">Public repository language distribution</title><desc id="desc">Rust: 62.2%; PHP: 17.9%; JavaScript: 6.5%; Vue: 5.6%; CSS: 4.8%; Other: 2.9%. Original public repositories; excludes forks and the profile repository. Byte distribution is not a skill rating.</desc>
+<style>.signal{animation:signal 7s linear infinite}.cursor{animation:cursor 3s ease-in-out infinite}@keyframes signal{to{stroke-dashoffset:-120}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style>
+<rect x="0.5" y="0.5" width="599" height="534" rx="16" fill="#F6F8FA" stroke="#CBD5E1"/>
+<text x="30" y="44" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700" fill="#17283B" text-anchor="start">The public codebase</text>
+<text x="30" y="76" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#526477" text-anchor="start">Language bytes · original repositories</text>
+<text x="30" y="116" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#17283B" text-anchor="start">Rust</text>
+<text x="570" y="116" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#526477" text-anchor="end">62.2%</text>
+<rect x="30" y="129" width="540" height="8" rx="4" fill="#EAF0F6" stroke="#EAF0F6"/>
+<rect x="30" y="129" width="335.8959608915894" height="8" rx="4" fill="#0969DA" stroke="none"/>
+<text x="30" y="181" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#17283B" text-anchor="start">PHP</text>
+<text x="570" y="181" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#526477" text-anchor="end">17.9%</text>
+<rect x="30" y="194" width="540" height="8" rx="4" fill="#EAF0F6" stroke="#EAF0F6"/>
+<rect x="30" y="194" width="96.61031090979947" height="8" rx="4" fill="#087F8C" stroke="none"/>
+<text x="30" y="246" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#17283B" text-anchor="start">JavaScript</text>
+<text x="570" y="246" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#526477" text-anchor="end">6.5%</text>
+<rect x="30" y="259" width="540" height="8" rx="4" fill="#EAF0F6" stroke="#EAF0F6"/>
+<rect x="30" y="259" width="35.35852235524303" height="8" rx="4" fill="#0969DA" stroke="none"/>
+<text x="30" y="311" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#17283B" text-anchor="start">Vue</text>
+<text x="570" y="311" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#526477" text-anchor="end">5.6%</text>
+<rect x="30" y="324" width="540" height="8" rx="4" fill="#EAF0F6" stroke="#EAF0F6"/>
+<rect x="30" y="324" width="30.35720688997139" height="8" rx="4" fill="#087F8C" stroke="none"/>
+<text x="30" y="376" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#17283B" text-anchor="start">CSS</text>
+<text x="570" y="376" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#526477" text-anchor="end">4.8%</text>
+<rect x="30" y="389" width="540" height="8" rx="4" fill="#EAF0F6" stroke="#EAF0F6"/>
+<rect x="30" y="389" width="25.87850991259633" height="8" rx="4" fill="#0969DA" stroke="none"/>
+<text x="30" y="441" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="400" fill="#17283B" text-anchor="start">Other</text>
+<text x="570" y="441" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#526477" text-anchor="end">2.9%</text>
+<rect x="30" y="454" width="540" height="8" rx="4" fill="#EAF0F6" stroke="#EAF0F6"/>
+<rect x="30" y="454" width="15.899489040800374" height="8" rx="4" fill="#087F8C" stroke="none"/>
+<text x="30" y="506" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#526477" text-anchor="start">Repository bytes are not a measure of proficiency.</text>
+</svg>

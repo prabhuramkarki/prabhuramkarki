@@ -1,0 +1,456 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-19",
+  "user": "prabhuramkarki",
+  "metrics": {
+    "public_repos": 27,
+    "total_stars": 1,
+    "original_repos": 24,
+    "featured_projects": 4
+  },
+  "repositories": [
+    {
+      "name": "ai-job-search",
+      "url": "https://github.com/prabhuramkarki/ai-job-search",
+      "default_branch": "master",
+      "created_at": "2026-10-19T08:09:46Z",
+      "pushed_at": "2026-10-18T19:38:41Z",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "birthday_wish",
+      "url": "https://github.com/prabhuramkarki/birthday_wish",
+      "default_branch": "master",
+      "created_at": "2024-05-20T12:54:36Z",
+      "pushed_at": "2024-05-20T12:54:38Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "code-shell-rs",
+      "url": "https://github.com/prabhuramkarki/code-shell-rs",
+      "default_branch": "main",
+      "created_at": "2026-09-26T08:57:39Z",
+      "pushed_at": "2026-09-26T08:58:21Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "easy-invoice",
+      "url": "https://github.com/prabhuramkarki/easy-invoice",
+      "default_branch": "main",
+      "created_at": "2025-12-20T10:45:43Z",
+      "pushed_at": "2025-12-20T10:59:36Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "expenses-tracker",
+      "url": "https://github.com/prabhuramkarki/expenses-tracker",
+      "default_branch": "main",
+      "created_at": "2025-05-27T05:07:03Z",
+      "pushed_at": "2025-05-27T05:17:49Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "himalayan-flavours",
+      "url": "https://github.com/prabhuramkarki/himalayan-flavours",
+      "default_branch": "main",
+      "created_at": "2025-09-15T13:31:51Z",
+      "pushed_at": "2025-09-15T13:43:40Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "inventory-management-system",
+      "url": "https://github.com/prabhuramkarki/inventory-management-system",
+      "default_branch": "main",
+      "created_at": "2025-12-27T14:28:39Z",
+      "pushed_at": "2025-12-27T14:28:39Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "laravel-crud-app",
+      "url": "https://github.com/prabhuramkarki/laravel-crud-app",
+      "default_branch": "main",
+      "created_at": "2025-10-04T13:45:18Z",
+      "pushed_at": "2025-10-04T13:49:22Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "laravel-crud-app-frontend",
+      "url": "https://github.com/prabhuramkarki/laravel-crud-app-frontend",
+      "default_branch": "main",
+      "created_at": "2025-10-04T13:50:43Z",
+      "pushed_at": "2025-10-04T13:52:26Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "library_management_gui",
+      "url": "https://github.com/prabhuramkarki/library_management_gui",
+      "default_branch": "master",
+      "created_at": "2024-09-21T12:05:03Z",
+      "pushed_at": "2024-09-21T12:05:06Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "manducart",
+      "url": "https://github.com/prabhuramkarki/manducart",
+      "default_branch": "main",
+      "created_at": "2023-12-10T13:51:40Z",
+      "pushed_at": "2026-05-10T06:55:52Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "manducart-v2",
+      "url": "https://github.com/prabhuramkarki/manducart-v2",
+      "default_branch": "main",
+      "created_at": "2025-10-04T13:39:54Z",
+      "pushed_at": "2026-03-03T11:29:26Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "mern-ecommerce",
+      "url": "https://github.com/prabhuramkarki/mern-ecommerce",
+      "default_branch": "master",
+      "created_at": "2025-03-14T02:29:59Z",
+      "pushed_at": "2025-07-09T04:51:29Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "native-windows-application-runtime-on-linux",
+      "url": "https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux",
+      "default_branch": "main",
+      "created_at": "2026-09-26T08:06:00Z",
+      "pushed_at": "2026-10-16T13:53:55Z",
+      "stars": 1,
+      "fork": false
+    },
+    {
+      "name": "Network-Anamoly-Detection-System",
+      "url": "https://github.com/prabhuramkarki/Network-Anamoly-Detection-System",
+      "default_branch": "master",
+      "created_at": "2025-02-19T16:14:48Z",
+      "pushed_at": "2018-10-16T13:18:57Z",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "newRepo",
+      "url": "https://github.com/prabhuramkarki/newRepo",
+      "default_branch": "main",
+      "created_at": "2023-03-28T07:33:23Z",
+      "pushed_at": "2023-03-28T07:33:24Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "otp_system",
+      "url": "https://github.com/prabhuramkarki/otp_system",
+      "default_branch": "master",
+      "created_at": "2024-09-21T12:01:38Z",
+      "pushed_at": "2024-09-21T12:01:41Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "portfolio",
+      "url": "https://github.com/prabhuramkarki/portfolio",
+      "default_branch": "main",
+      "created_at": "2023-02-23T16:23:33Z",
+      "pushed_at": "2024-08-11T06:58:24Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "prabhuramkarki",
+      "url": "https://github.com/prabhuramkarki/prabhuramkarki",
+      "default_branch": "main",
+      "created_at": "2023-04-17T08:09:38Z",
+      "pushed_at": "2026-10-19T08:14:06Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "python-todolist",
+      "url": "https://github.com/prabhuramkarki/python-todolist",
+      "default_branch": "main",
+      "created_at": "2023-05-27T11:23:38Z",
+      "pushed_at": "2023-05-27T11:28:23Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "rea",
+      "url": "https://github.com/prabhuramkarki/rea",
+      "default_branch": "main",
+      "created_at": "2026-10-17T16:10:18Z",
+      "pushed_at": "2026-10-19T08:19:58Z",
+      "stars": 0,
+      "fork": true
+    },
+    {
+      "name": "react-portfolio",
+      "url": "https://github.com/prabhuramkarki/react-portfolio",
+      "default_branch": "main",
+      "created_at": "2023-06-27T14:35:08Z",
+      "pushed_at": "2023-07-10T11:58:27Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "smart_traffic_mobile_app",
+      "url": "https://github.com/prabhuramkarki/smart_traffic_mobile_app",
+      "default_branch": "master",
+      "created_at": "2024-09-21T12:09:52Z",
+      "pushed_at": "2024-09-21T12:09:55Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "TaskManager",
+      "url": "https://github.com/prabhuramkarki/TaskManager",
+      "default_branch": "master",
+      "created_at": "2023-12-21T13:37:51Z",
+      "pushed_at": "2023-12-21T14:38:13Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "todo",
+      "url": "https://github.com/prabhuramkarki/todo",
+      "default_branch": "master",
+      "created_at": "2023-12-21T13:39:23Z",
+      "pushed_at": "2023-12-21T13:39:25Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "vrit_frontend_task",
+      "url": "https://github.com/prabhuramkarki/vrit_frontend_task",
+      "default_branch": "master",
+      "created_at": "2024-04-04T11:32:24Z",
+      "pushed_at": "2024-04-04T15:00:22Z",
+      "stars": 0,
+      "fork": false
+    },
+    {
+      "name": "vuejs-projects",
+      "url": "https://github.com/prabhuramkarki/vuejs-projects",
+      "default_branch": "main",
+      "created_at": "2025-06-29T06:41:09Z",
+      "pushed_at": "2025-07-06T04:57:33Z",
+      "stars": 0,
+      "fork": false
+    }
+  ],
+  "languages": [
+    {
+      "name": "Rust",
+      "bytes": 4097323
+    },
+    {
+      "name": "PHP",
+      "bytes": 1178471
+    },
+    {
+      "name": "JavaScript",
+      "bytes": 431310
+    },
+    {
+      "name": "Vue",
+      "bytes": 370303
+    },
+    {
+      "name": "CSS",
+      "bytes": 315671
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 52242
+    },
+    {
+      "name": "HTML",
+      "bytes": 48023
+    },
+    {
+      "name": "Java",
+      "bytes": 24053
+    },
+    {
+      "name": "C",
+      "bytes": 23706
+    },
+    {
+      "name": "Python",
+      "bytes": 15563
+    },
+    {
+      "name": "Hack",
+      "bytes": 10498
+    },
+    {
+      "name": "Blade",
+      "bytes": 8790
+    },
+    {
+      "name": "Shell",
+      "bytes": 5961
+    },
+    {
+      "name": "NSIS",
+      "bytes": 2805
+    },
+    {
+      "name": "C#",
+      "bytes": 2304
+    }
+  ],
+  "activity": {
+    "window_start": "2026-09-20",
+    "window_end": "2026-10-19",
+    "events_returned": 45,
+    "events_count": 40,
+    "limited": false,
+    "days": [
+      {
+        "date": "2026-09-20",
+        "count": 0
+      },
+      {
+        "date": "2026-09-21",
+        "count": 0
+      },
+      {
+        "date": "2026-09-22",
+        "count": 0
+      },
+      {
+        "date": "2026-09-23",
+        "count": 0
+      },
+      {
+        "date": "2026-09-24",
+        "count": 0
+      },
+      {
+        "date": "2026-09-25",
+        "count": 0
+      },
+      {
+        "date": "2026-09-26",
+        "count": 7
+      },
+      {
+        "date": "2026-09-27",
+        "count": 0
+      },
+      {
+        "date": "2026-09-28",
+        "count": 1
+      },
+      {
+        "date": "2026-09-29",
+        "count": 0
+      },
+      {
+        "date": "2026-09-30",
+        "count": 14
+      },
+      {
+        "date": "2026-10-01",
+        "count": 0
+      },
+      {
+        "date": "2026-10-02",
+        "count": 0
+      },
+      {
+        "date": "2026-10-03",
+        "count": 0
+      },
+      {
+        "date": "2026-10-04",
+        "count": 0
+      },
+      {
+        "date": "2026-10-05",
+        "count": 0
+      },
+      {
+        "date": "2026-10-06",
+        "count": 0
+      },
+      {
+        "date": "2026-10-07",
+        "count": 0
+      },
+      {
+        "date": "2026-10-08",
+        "count": 0
+      },
+      {
+        "date": "2026-10-09",
+        "count": 0
+      },
+      {
+        "date": "2026-10-10",
+        "count": 0
+      },
+      {
+        "date": "2026-10-11",
+        "count": 0
+      },
+      {
+        "date": "2026-10-12",
+        "count": 0
+      },
+      {
+        "date": "2026-10-13",
+        "count": 0
+      },
+      {
+        "date": "2026-10-14",
+        "count": 0
+      },
+      {
+        "date": "2026-10-15",
+        "count": 0
+      },
+      {
+        "date": "2026-10-16",
+        "count": 15
+      },
+      {
+        "date": "2026-10-17",
+        "count": 1
+      },
+      {
+        "date": "2026-10-18",
+        "count": 0
+      },
+      {
+        "date": "2026-10-19",
+        "count": 2
+      }
+    ]
+  },
+  "definitions": {
+    "repositories": "Currently public repositories owned by prabhuramkarki; includes forks. Originals excludes forks.",
+    "stars": "Sum of current stargazer counts across all currently public owned repositories, including forks.",
+    "languages": "GitHub language bytes summed across currently public owned non-fork repositories, excluding the profile repository. Bytes describe repository contents, not skill or effort.",
+    "activity": "Returned public GitHub events in currently public owned repositories over 30 inclusive UTC dates. Events are not commits or contributions; one push can contain multiple commits. Zero means no returned events, not proof of no activity.",
+    "coverage": "GitHub's public event feed is limited to the latest 300 events and the last 30 days; it can be delayed. limited=true means the 300-event ceiling was reached. Counts may be incomplete even when limited=false.",
+    "timeline": "Creation dates of currently public owned non-fork repositories; not a historical account of all repositories ever created.",
+    "featured": "easy-invoice, code-shell-rs, native-windows-application-runtime-on-linux, manducart-v2"
+  }
+}
