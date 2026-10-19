@@ -1,30 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="570" viewBox="0 0 600 570" role="img" aria-labelledby="title desc">
-<title id="title">Illustrative full-stack architecture</title><desc id="desc">Experience feeds application logic, work and data, then delivery. Components, APIs, authorization, queues, cache, databases, Linux and CI/CD. This is a conceptual pattern.</desc>
-<style>.signal{animation:signal 7s linear infinite}.cursor{animation:cursor 3s ease-in-out infinite}@keyframes signal{to{stroke-dashoffset:-120}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style>
-<rect x="0.5" y="0.5" width="599" height="569" rx="16" fill="#0D1117" stroke="#303D4D"/>
-<text x="32" y="47" font-family="'Segoe UI', Arial, sans-serif" font-size="31" font-weight="700" fill="#E6EDF3" text-anchor="start">Follow the feature.</text>
-<text x="32" y="80" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#A0ADBC" text-anchor="start">An illustrative full-stack architecture</text>
-<rect x="32" y="112" width="536" height="84" rx="12" fill="#161B22" stroke="#303D4D"/>
-<text x="52" y="146" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#39C5CF" text-anchor="start">01</text>
-<text x="106" y="146" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600" fill="#E6EDF3" text-anchor="start">Experience</text>
-<text x="106" y="175" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#A0ADBC" text-anchor="start">Components · state · interaction</text>
-<path d="M300 196v22" stroke="#58A6FF" stroke-width="2" fill="none" />
-<circle cx="300" cy="208" r="3" fill="#39C5CF" />
-<rect x="32" y="218" width="536" height="84" rx="12" fill="#161B22" stroke="#303D4D"/>
-<text x="52" y="252" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#39C5CF" text-anchor="start">02</text>
-<text x="106" y="252" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600" fill="#E6EDF3" text-anchor="start">Application</text>
-<text x="106" y="281" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#A0ADBC" text-anchor="start">API · validation · authorization</text>
-<path d="M300 302v22" stroke="#58A6FF" stroke-width="2" fill="none" />
-<circle cx="300" cy="314" r="3" fill="#39C5CF" />
-<rect x="32" y="324" width="536" height="84" rx="12" fill="#161B22" stroke="#303D4D"/>
-<text x="52" y="358" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#39C5CF" text-anchor="start">03</text>
-<text x="106" y="358" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600" fill="#E6EDF3" text-anchor="start">Work and data</text>
-<text x="106" y="387" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#A0ADBC" text-anchor="start">Queues · cache · databases</text>
-<path d="M300 408v22" stroke="#58A6FF" stroke-width="2" fill="none" />
-<circle cx="300" cy="420" r="3" fill="#39C5CF" />
-<rect x="32" y="430" width="536" height="84" rx="12" fill="#161B22" stroke="#303D4D"/>
-<text x="52" y="464" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#39C5CF" text-anchor="start">04</text>
-<text x="106" y="464" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600" fill="#E6EDF3" text-anchor="start">Delivery</text>
-<text x="106" y="493" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#A0ADBC" text-anchor="start">Linux · containers · CI/CD</text>
-<text x="32" y="553" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#A0ADBC" text-anchor="start">A pattern to reason about, not every project’s stack.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-labelledby="title desc">
+<title id="title">Illustrative full-stack architecture</title><desc id="desc">Interface, application logic, and work and data have explicit boundaries. Delivery supports all layers. This is a conceptual pattern, not every project’s architecture.</desc>
+<rect x="0.5" y="0.5" width="959" height="329" rx="12" fill="#0D1117" stroke="#303D4D"/>
+<text x="32" y="43" font-family="'Segoe UI', Arial, sans-serif" font-size="32" font-weight="700" fill="#E6EDF3" text-anchor="start">One feature. Clear boundaries.</text>
+<text x="32" y="72" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A0ADBC" text-anchor="start">An illustrative architecture</text>
+<rect x="32" y="104" width="276" height="124" rx="10" fill="#161B22" stroke="#303D4D"/>
+<text x="50" y="132" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="600" fill="#E6EDF3" text-anchor="start">Interface</text>
+<text x="50" y="158" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#A0ADBC" text-anchor="start">Components / state</text>
+<text x="50" y="191" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#A0ADBC" text-anchor="start">Interaction / feedback</text>
+<path d="M308 166h34" stroke="#58A6FF" stroke-width="2" fill="none" />
+<rect x="342" y="104" width="276" height="124" rx="10" fill="#161B22" stroke="#303D4D"/>
+<text x="360" y="132" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="600" fill="#E6EDF3" text-anchor="start">Application</text>
+<text x="360" y="158" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#A0ADBC" text-anchor="start">API / authorization</text>
+<text x="360" y="191" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#A0ADBC" text-anchor="start">Validation / business rules</text>
+<path d="M618 166h34" stroke="#58A6FF" stroke-width="2" fill="none" />
+<rect x="652" y="104" width="276" height="124" rx="10" fill="#161B22" stroke="#303D4D"/>
+<text x="670" y="132" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="600" fill="#E6EDF3" text-anchor="start">Work and data</text>
+<text x="670" y="158" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#A0ADBC" text-anchor="start">Queues / cache</text>
+<text x="670" y="191" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#A0ADBC" text-anchor="start">Schema / queries / storage</text>
+<rect x="32" y="256" width="896" height="51" rx="10" fill="#1C2430" stroke="#303D4D"/>
+<text x="50" y="288" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#58A6FF" text-anchor="start">Delivery supports every layer</text>
+<text x="910" y="288" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#A0ADBC" text-anchor="end">Linux / containers / CI/CD</text>
 </svg>

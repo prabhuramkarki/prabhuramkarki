@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="258" viewBox="0 0 360 258" role="img" aria-labelledby="title desc">
+<title id="title">ManduCart v2</title><desc id="desc">A storefront meets its API. Full-stack product. Source-based illustration, not a screenshot or live demo.</desc>
+<rect x="0.5" y="0.5" width="359" height="257" rx="12" fill="#0D1117" stroke="#303D4D"/>
+<text x="24" y="31" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#39C5CF" text-anchor="start">Full-stack product</text>
+<text x="23" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#E6EDF3" text-anchor="start">ManduCart v2</text>
+<path d="M24 86H336" stroke="#303D4D" stroke-width="1.5" fill="none" />
+<g transform="translate(24 102) scale(1)">
+<rect x="0" y="0" width="96" height="55" rx="5" fill="#1C2430" stroke="#303D4D"/>
+<text x="48" y="34" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#E6EDF3" text-anchor="middle">Catalog</text>
+<rect x="108" y="0" width="96" height="55" rx="5" fill="#1C2430" stroke="#303D4D"/>
+<text x="156" y="34" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#E6EDF3" text-anchor="middle">Account</text>
+<rect x="216" y="0" width="96" height="55" rx="5" fill="#1C2430" stroke="#303D4D"/>
+<text x="264" y="34" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#E6EDF3" text-anchor="middle">Cart</text>
+<path d="M48 55V77H264V55M156 55V96" stroke="#58A6FF" stroke-width="2" fill="none" />
+<rect x="52" y="96" width="208" height="46" rx="5" fill="#161B22" stroke="#303D4D"/>
+<text x="156" y="125" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#39C5CF" text-anchor="middle">Laravel API</text>
+</g>
+</svg>

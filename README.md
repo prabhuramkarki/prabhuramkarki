@@ -1,19 +1,21 @@
+<h1>
 <picture>
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/hero/hero-mobile-dark.svg">
   <source media="(max-width: 480px)" srcset="assets/hero/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero/hero-dark.svg">
-  <img src="assets/hero/hero-light.svg" width="100%" alt="Prabhuram Karki. Full-Stack Software Engineer in Kathmandu, Nepal. Care in the interface. Clarity in the system.">
+  <img src="assets/hero/hero-light.svg" width="100%" alt="Prabhuram Karki. Full-Stack Software Engineer in Kathmandu, Nepal. From the interface down. Products, APIs, and the systems beneath them.">
 </picture>
+</h1>
 
 **[Portfolio](https://www.prabhuramkarki.com.np)** &nbsp; / &nbsp; [Selected work](#selected-engineering-work) &nbsp; / &nbsp; [LinkedIn](https://linkedin.com/in/prabhuramkarki) &nbsp; / &nbsp; [Email](mailto:prabhuramkarki07@gmail.com)
 
 I build across the interface, API, and data model, primarily with **Vue, Nuxt, Quasar, and Laravel**. I care about a feature’s whole path: what people experience, the rules behind it, and the code someone will maintain next.
 
-My public projects also venture below the web stack: a Rust coding agent, document processing with OCR, and an experimental Windows application runtime for Linux.
+## Public engineering snapshot
 
 <picture>
-  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/overview-mobile-dark.svg">
-  <source media="(max-width: 480px)" srcset="assets/dashboard/overview-mobile-light.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/overview-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/dashboard/overview-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/overview-dark.svg">
   <img src="assets/dashboard/overview-light.svg" width="100%" alt="Dated GitHub dashboard: public repositories, stars, original repositories, and verified featured projects. Exact values and definitions are available in the linked data snapshot.">
 </picture>
@@ -28,12 +30,14 @@ Four public repositories, four different engineering problems. The covers below 
 
 <a href="https://github.com/prabhuramkarki/code-shell-rs">
   <picture>
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/code-shell-mobile-dark.svg">
+    <source media="(max-width: 480px)" srcset="assets/projects/code-shell-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/projects/code-shell-dark.svg">
     <img src="assets/projects/code-shell-light.svg" width="100%" alt="Code Shell: an illustrated terminal and the separation of prompt handling, planning, and tool execution.">
   </picture>
 </a>
 
-**A coding agent in a native Rust CLI.** Work with a codebase through an interactive terminal or scripted prompts. Four crates separate the agent loop, streaming providers, tools, and CLI; tool calls pass through a permission engine, file edits produce diffs, and shell commands have a timeout.
+**A coding agent in a native Rust CLI.** Work with a codebase through an interactive terminal or scripted prompts. Four crates separate the agent loop, streaming providers, tools, and CLI; tool calls pass through a permission engine, file edits produce diffs, and the shell tool has a timeout. My contributions include the terminal REPL and command handling.
 
 `Rust` `Tokio` `SSE` `CLI` `LLM tool calling`
 
@@ -43,6 +47,8 @@ Four public repositories, four different engineering problems. The covers below 
 
 <a href="https://github.com/prabhuramkarki/easy-invoice">
   <picture>
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/easy-invoice-mobile-dark.svg">
+    <source media="(max-width: 480px)" srcset="assets/projects/easy-invoice-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/projects/easy-invoice-dark.svg">
     <img src="assets/projects/easy-invoice-light.svg" width="100%" alt="Easy Invoice: a schematic invoice image moving into structured number, date, vendor, and total fields.">
   </picture>
@@ -58,6 +64,8 @@ Four public repositories, four different engineering problems. The covers below 
 
 <a href="https://github.com/prabhuramkarki/manducart-v2">
   <picture>
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/manducart-mobile-dark.svg">
+    <source media="(max-width: 480px)" srcset="assets/projects/manducart-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/projects/manducart-dark.svg">
     <img src="assets/projects/manducart-light.svg" width="100%" alt="ManduCart v2: an illustrative storefront catalog, connected to Vue and Laravel application layers.">
   </picture>
@@ -73,6 +81,8 @@ Four public repositories, four different engineering problems. The covers below 
 
 <a href="https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux">
   <picture>
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/linux-runtime-mobile-dark.svg">
+    <source media="(max-width: 480px)" srcset="assets/projects/linux-runtime-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="assets/projects/linux-runtime-dark.svg">
     <img src="assets/projects/linux-runtime-light.svg" width="100%" alt="Experimental runtime: CLI and GTK clients communicate with a local JSON-RPC daemon above Wine.">
   </picture>
@@ -89,8 +99,10 @@ Four public repositories, four different engineering problems. The covers below 
 Start with the user’s task. Make the boundaries clear. Keep a feature understandable from its first interaction to its stored data, and test the behavior those boundaries promise.
 
 <picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/architecture/engineering-flow-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/architecture/engineering-flow-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/architecture/engineering-flow-dark.svg">
-  <img src="assets/architecture/engineering-flow-light.svg" width="600" alt="Illustrative architecture: experience and components feed APIs, validation, and authorization; work and data include queues, cache, and databases; delivery uses Linux, containers, and CI/CD. This is a conceptual pattern, not a claim about every project.">
+  <img src="assets/architecture/engineering-flow-light.svg" width="100%" alt="Illustrative architecture: interface, application, and work and data have clear boundaries. Linux, containers, and CI/CD support every layer. This pattern is not a claim about every project.">
 </picture>
 
 | Area | What I pay attention to |
@@ -116,16 +128,34 @@ Start with the user’s task. Make the boundaries clear. Keep a feature understa
 Repository language bytes describe the shape of the public codebase. They are influenced by repository size and GitHub’s language detection; they are **not skill ratings or measures of time spent**.
 
 <picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/languages-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/dashboard/languages-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/languages-dark.svg">
   <img src="assets/dashboard/languages-light.svg" width="600" alt="Language distribution by bytes across original public repositories. Forks and this profile repository are excluded. Full values are in the data snapshot.">
 </picture>
 
 <picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/activity-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/dashboard/activity-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/activity-dark.svg">
-  <img src="assets/dashboard/activity-light.svg" width="600" alt="Daily returned public GitHub events during the displayed 30-day period. The feed includes at most 300 events and may be incomplete. These are events, not commits or contributions.">
+  <img src="assets/dashboard/activity-light.svg" width="600" alt="Returned public GitHub events during the dated 30-day window, shown daily on desktop or grouped into seven-day intervals on phones. The feed is capped at 300 events and may omit activity. Events are not commits or contributions.">
 </picture>
 
 The activity chart counts returned public events in currently public repositories I own. GitHub’s event feed is capped and delayed; an empty day means no event was returned. **This is a dated snapshot, refreshed weekly.** [Data, definitions, and limitations](docs/dashboard.md) · [GitHub activity](https://github.com/prabhuramkarki?tab=overview)
+
+<details>
+<summary>Explore the repository archive by creation year</summary>
+
+This chart groups currently public original repositories by the year they were created. It describes the visible archive, including small experiments; it is not a count of shipped products.
+
+<picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/timeline-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/dashboard/timeline-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/timeline-dark.svg">
+  <img src="assets/dashboard/timeline-light.svg" width="600" alt="Currently public original repositories grouped by creation year. Forks, private repositories, and deleted repositories are excluded. Exact creation dates are available in the public data snapshot.">
+</picture>
+
+</details>
 
 ## Below the interface
 

@@ -1,25 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
-<title id="title">Code Shell</title><desc id="desc">A coding agent at home in the terminal. Developer tooling / Rust. Illustration, not a product screenshot.</desc>
-<style>.signal{animation:signal 7s linear infinite}.cursor{animation:cursor 3s ease-in-out infinite}@keyframes signal{to{stroke-dashoffset:-120}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style>
-<rect x="0.5" y="0.5" width="959" height="259" rx="16" fill="#0D1117" stroke="#303D4D"/>
-<rect x="590" y="18" width="351" height="224" rx="10" fill="#1C2430" stroke="#303D4D"/>
-<text x="34" y="45" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#39C5CF" text-anchor="start">Developer tooling / Rust</text>
-<text x="32" y="106" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="700" fill="#E6EDF3" text-anchor="start">Code Shell</text>
-<text x="34" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#A0ADBC" text-anchor="start">A coding agent at home in the terminal.</text>
-<path d="M34 185H548" stroke="#303D4D" stroke-width="1.5" fill="none" />
-<text x="34" y="222" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A0ADBC" text-anchor="start">CLI  /  CORE  /  PROVIDERS  /  TOOLS</text>
-<rect x="610" y="39" width="311" height="183" rx="8" fill="#161B22" stroke="#303D4D"/>
-<text x="628" y="68" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" font-weight="400" fill="#39C5CF" text-anchor="start">code-shell &gt;</text>
-<text x="628" y="105" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#A0ADBC" text-anchor="start">prompt</text>
-<path d="M697 100H894" stroke="#58A6FF" stroke-width="3" fill="none" />
-<text x="628" y="140" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#A0ADBC" text-anchor="start">plan</text>
-<path d="M697 135H857" stroke="#58A6FF" stroke-width="3" fill="none" />
-<text x="628" y="175" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#A0ADBC" text-anchor="start">tools</text>
-<rect x="697" y="158" width="51" height="25" rx="4" fill="#1C2430" stroke="#303D4D"/>
-<path d="M706 171h32" stroke="#39C5CF" stroke-width="2" fill="none" />
-<rect x="762" y="158" width="51" height="25" rx="4" fill="#1C2430" stroke="#303D4D"/>
-<path d="M771 171h32" stroke="#39C5CF" stroke-width="2" fill="none" />
-<rect x="827" y="158" width="51" height="25" rx="4" fill="#1C2430" stroke="#303D4D"/>
-<path d="M836 171h32" stroke="#39C5CF" stroke-width="2" fill="none" />
-<text x="628" y="207" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A0ADBC" text-anchor="start">permission → execution</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
+<title id="title">Code Shell</title><desc id="desc">A prompt, with boundaries. Developer tooling. Source-based illustration, not a screenshot or live demo.</desc>
+<rect x="0.5" y="0.5" width="959" height="279" rx="12" fill="#0D1117" stroke="#303D4D"/>
+<path d="M0 24V256" stroke="#58A6FF" stroke-width="3" fill="none" />
+<text x="32" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#39C5CF" text-anchor="start">Developer tooling</text>
+<text x="30" y="91" font-family="'Segoe UI', Arial, sans-serif" font-size="36" font-weight="700" fill="#E6EDF3" text-anchor="start">Code Shell</text>
+<text x="32" y="131" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="400" fill="#A0ADBC" text-anchor="start">A prompt, with boundaries.</text>
+<text x="32" y="254" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">Source-based illustration</text>
+<rect x="560" y="18" width="380" height="244" rx="8" fill="#161B22" stroke="#303D4D"/>
+<g transform="translate(590 56) scale(1)">
+<text x="0" y="22" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="400" fill="#39C5CF" text-anchor="start">&gt; prompt</text>
+<path d="M0 37H312" stroke="#303D4D" stroke-width="1.5" fill="none" />
+<text x="0" y="65" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="400" fill="#E6EDF3" text-anchor="start">agent loop</text>
+<path d="M142 58H312" stroke="#58A6FF" stroke-width="2" fill="none" />
+<text x="0" y="101" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="400" fill="#E6EDF3" text-anchor="start">approval</text>
+<path d="M142 94H312" stroke="#39C5CF" stroke-width="2" fill="none" />
+<text x="0" y="137" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="400" fill="#E6EDF3" text-anchor="start">tools</text>
+<text x="142" y="137" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" font-weight="400" fill="#A0ADBC" text-anchor="start">edit / shell</text>
+<text x="0" y="181" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">core / providers / tools / cli</text>
+</g>
 </svg>

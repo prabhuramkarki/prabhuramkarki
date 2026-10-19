@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="258" viewBox="0 0 360 258" role="img" aria-labelledby="title desc">
+<title id="title">Easy Invoice</title><desc id="desc">An image becomes a record. Document processing. Source-based illustration, not a screenshot or live demo.</desc>
+<rect x="0.5" y="0.5" width="359" height="257" rx="12" fill="#F6F8FA" stroke="#CBD5E1"/>
+<text x="24" y="31" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#087580" text-anchor="start">Document processing</text>
+<text x="23" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#17283B" text-anchor="start">Easy Invoice</text>
+<path d="M24 86H336" stroke="#CBD5E1" stroke-width="1.5" fill="none" />
+<g transform="translate(24 102) scale(1)">
+<rect x="0" y="0" width="98" height="131" rx="4" fill="#EAF0F6" stroke="#CBD5E1"/>
+<text x="14" y="30" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#0969DA" text-anchor="start">invoice</text>
+<path d="M14 50H82" stroke="#CBD5E1" stroke-width="2" fill="none" />
+<path d="M14 68H82" stroke="#CBD5E1" stroke-width="2" fill="none" />
+<path d="M14 86H82" stroke="#CBD5E1" stroke-width="2" fill="none" />
+<path d="M14 104H82" stroke="#CBD5E1" stroke-width="2" fill="none" />
+<path d="M113 65H160" stroke="#087580" stroke-width="2" fill="none" />
+<path d="M152 57l8 8-8 8" stroke="#087580" stroke-width="2" fill="none" />
+<text x="177" y="25" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#17283B" text-anchor="start">number</text>
+<text x="177" y="58" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#17283B" text-anchor="start">date</text>
+<text x="177" y="91" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#17283B" text-anchor="start">vendor</text>
+<text x="177" y="124" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#17283B" text-anchor="start">total</text>
+</g>
+</svg>

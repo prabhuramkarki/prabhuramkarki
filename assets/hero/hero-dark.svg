@@ -1,33 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="440" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
-<title id="title">Prabhuram Karki · Full-Stack Software Engineer</title><desc id="desc">Care in the interface. Clarity in the system. Kathmandu, Nepal. A terminal and abstract contour map connect UI, API and data.</desc>
-<style>.signal{animation:signal 7s linear infinite}.cursor{animation:cursor 3s ease-in-out infinite}@keyframes signal{to{stroke-dashoffset:-120}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style>
-<rect x="0.5" y="0.5" width="959" height="439" rx="18" fill="#0D1117" stroke="#303D4D"/>
-<path d="M32 42H928" stroke="#303D4D" stroke-width="1.5" fill="none" />
-<text x="32" y="28" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A0ADBC" text-anchor="start">PK / ENGINEERING ATLAS</text>
-<text x="38" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="82" font-weight="700" fill="#E6EDF3" text-anchor="start">Prabhuram</text>
-<text x="38" y="218" font-family="'Segoe UI', Arial, sans-serif" font-size="82" font-weight="700" fill="#E6EDF3" text-anchor="start">Karki</text>
-<text x="42" y="263" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="400" fill="#58A6FF" text-anchor="start">Full-Stack Software Engineer</text>
-<text x="42" y="318" font-family="'Segoe UI', Arial, sans-serif" font-size="29" font-weight="400" fill="#E6EDF3" text-anchor="start">Care in the interface.</text>
-<text x="42" y="356" font-family="'Segoe UI', Arial, sans-serif" font-size="29" font-weight="400" fill="#E6EDF3" text-anchor="start">Clarity in the system.</text>
-<path d="M727 163.58 Q729.76 138.05 745.4 139.2 Q762.65 123.1 773 150.24 Q778.75 169.1 755.75 171.4 Q736.2 180.6 727 163.58Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M710 171.4 Q714.8 127.0 742.0 129.0 Q772.0 101.0 790 148.2 Q800.0 181.0 760.0 185.0 Q726.0 201.0 710 171.4Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M693 179.22 Q699.84 115.94999999999999 738.6 118.80000000000001 Q781.35 78.89999999999999 807 146.16 Q821.25 192.9 764.25 198.6 Q715.8 221.39999999999998 693 179.22Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M676 187.04 Q684.88 104.9 735.2 108.6 Q790.7 56.8 824 144.12 Q842.5 204.8 768.5 212.2 Q705.6 241.8 676 187.04Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M659 194.86 Q669.92 93.85 731.8 98.4 Q800.05 34.7 841 142.08 Q863.75 216.7 772.75 225.8 Q695.4 262.2 659 194.86Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M642 202.68 Q654.96 82.8 728.4 88.2 Q809.4 12.599999999999994 858 140.04 Q885.0 228.6 777.0 239.4 Q685.2 282.6 642 202.68Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M625 210.5 Q640.0 71.75 725.0 78.0 Q818.75 -9.5 875 138.0 Q906.25 240.5 781.25 253.0 Q675.0 303.0 625 210.5Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M608 218.32 Q625.04 60.7 721.6 67.8 Q828.1 -31.599999999999994 892 135.96 Q927.5 252.39999999999998 785.5 266.6 Q664.8 323.4 608 218.32Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M591 226.14 Q610.08 49.64999999999999 718.2 57.60000000000001 Q837.45 -53.70000000000002 909 133.92000000000002 Q948.75 264.3 789.75 280.2 Q654.6 343.79999999999995 591 226.14Z" stroke="#303D4D" stroke-width="0.8" fill="none" />
-<path d="M625 85H712V157H816V230H888" stroke="#58A6FF" stroke-width="2" fill="none" />
-<path d="M625 85H712V157H816V230H888" stroke="#39C5CF" stroke-width="3" fill="none" class="signal" stroke-dasharray="6 114"/>
-<circle cx="625" cy="85" r="6" fill="#0D1117" />
-<circle cx="625" cy="85" r="3" fill="#39C5CF" />
-<text x="615" y="69" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">UI</text>
-<circle cx="816" cy="157" r="6" fill="#0D1117" />
-<circle cx="816" cy="157" r="3" fill="#39C5CF" />
-<text x="806" y="141" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">API</text>
-<circle cx="888" cy="230" r="6" fill="#0D1117" />
-<circle cx="888" cy="230" r="3" fill="#39C5CF" />
-<text x="878" y="214" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">DATA</text>
-<rect x="600" y="274" width="318" height="116" rx="12" fill="#161B22" stroke="#303D4D"/>
-<circle cx="617" cy="291" r="3" fill="#58A6FF" />
-<text x="632" y="296" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">identity.sh</text>
-<text x="618" y="327" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#39C5CF" text-anchor="start">$ whoami</text>
-<text x="618" y="356" font-family="'JetBrains Mono', Consolas, monospace" font-size="21" font-weight="400" fill="#E6EDF3" text-anchor="start">Prabhuram Karki</text>
-<rect x="820" y="339" width="9" height="20" rx="0" fill="#58A6FF" stroke="#58A6FF" class="cursor"/>
-<path d="M32 402H928" stroke="#303D4D" stroke-width="1.5" fill="none" />
-<text x="32" y="426" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="400" fill="#A0ADBC" text-anchor="start">Kathmandu, Nepal</text>
-<text x="928" y="426" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="end">interface / application / system</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-labelledby="title desc">
+<title id="title">Prabhuram Karki · Full-Stack Software Engineer</title><desc id="desc">From the interface down. Products, APIs, and the systems beneath them. Kathmandu, Nepal. A terminal and abstract contour lines; motion is decorative and stops after four seconds.</desc>
+<style>.signal{opacity:0;animation:signal 3s ease-out 1}.cursor{animation:cursor 1.6s ease-in-out 2}@keyframes signal{0%{stroke-dashoffset:120;opacity:0}20%,80%{opacity:1}100%{stroke-dashoffset:-120;opacity:0}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style><rect x="0.5" y="0.5" width="959" height="329" rx="12" fill="#0D1117" stroke="#303D4D"/>
+<text x="32" y="35" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">prabhuramkarki / engineering</text>
+<text x="29" y="119" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="700" fill="#E6EDF3" text-anchor="start">Prabhuram Karki</text>
+<text x="32" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="400" fill="#58A6FF" text-anchor="start">Full-Stack Software Engineer</text>
+<text x="32" y="219" font-family="'Segoe UI', Arial, sans-serif" font-size="31" font-weight="400" fill="#E6EDF3" text-anchor="start">From the interface down.</text>
+<text x="32" y="252" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#A0ADBC" text-anchor="start">Products, APIs, and the systems beneath them.</text>
+<g opacity=".3"><path d="M515 187.2 Q517.4 165.0 531.0 166.0 Q546.0 152.0 555 175.6 Q560.0 192.0 540.0 194.0 Q523.0 202.0 515 187.2Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M501 193.64 Q505.08 155.9 528.2 157.6 Q553.7 133.8 569 173.92 Q577.5 201.8 543.5 205.2 Q514.6 218.8 501 193.64Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M487 200.08 Q492.76 146.8 525.4 149.2 Q561.4 115.6 583 172.24 Q595.0 211.6 547.0 216.4 Q506.2 235.6 487 200.08Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M473 206.52 Q480.44 137.7 522.6 140.8 Q569.1 97.39999999999999 597 170.56 Q612.5 221.4 550.5 227.6 Q497.8 252.39999999999998 473 206.52Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M459 212.96 Q468.12 128.6 519.8 132.4 Q576.8 79.2 611 168.88 Q630.0 231.2 554.0 238.8 Q489.4 269.2 459 212.96Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M445 219.4 Q455.8 119.5 517.0 124.0 Q584.5 61.0 625 167.2 Q647.5 241.0 557.5 250.0 Q481.0 286.0 445 219.4Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M431 225.84 Q443.48 110.39999999999999 514.2 115.6 Q592.2 42.79999999999998 639 165.52 Q665.0 250.8 561.0 261.2 Q472.6 302.8 431 225.84Z" stroke="#303D4D" stroke-width="0.8" fill="none" /><path d="M417 232.28 Q431.15999999999997 101.3 511.4 107.2 Q599.9 24.599999999999994 653 163.84 Q682.5 260.6 564.5 272.4 Q464.2 319.6 417 232.28Z" stroke="#303D4D" stroke-width="0.8" fill="none" /></g>
+<rect x="620" y="54" width="308" height="220" rx="10" fill="#161B22" stroke="#303D4D"/>
+<text x="640" y="83" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">identity.sh</text>
+<path d="M620 98H928" stroke="#303D4D" stroke-width="1.5" fill="none" />
+<text x="640" y="128" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#39C5CF" text-anchor="start">$ whoami</text>
+<text x="640" y="157" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#E6EDF3" text-anchor="start">Prabhuram Karki</text>
+<text x="640" y="194" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#39C5CF" text-anchor="start">$ working_set</text>
+<text x="640" y="224" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" font-weight="400" fill="#E6EDF3" text-anchor="start">Vue / Nuxt / Laravel</text>
+<path d="M640 249H713V242H799V249H905" stroke="#58A6FF" stroke-width="1.5" fill="none" />
+<path d="M640 249H713V242H799V249H905" stroke="#39C5CF" stroke-width="2" fill="none" class="signal" stroke-dasharray="8 88"/>
+<rect x="883" y="208" width="8" height="19" rx="0" fill="#58A6FF" stroke="none" class="cursor"/>
+<path d="M32 293H928" stroke="#303D4D" stroke-width="1.5" fill="none" />
+<text x="32" y="317" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">Kathmandu, Nepal</text>
+<text x="928" y="317" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="end">interface / application / system</text>
 </svg>

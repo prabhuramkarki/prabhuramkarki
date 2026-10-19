@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="258" viewBox="0 0 360 258" role="img" aria-labelledby="title desc">
+<title id="title">Windows apps on Linux</title><desc id="desc">An app meets its host. Systems exploration. Source-based illustration, not a screenshot or live demo.</desc>
+<rect x="0.5" y="0.5" width="359" height="257" rx="12" fill="#0D1117" stroke="#303D4D"/>
+<text x="24" y="31" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#39C5CF" text-anchor="start">Systems exploration</text>
+<text x="23" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#E6EDF3" text-anchor="start">Windows apps on Linux</text>
+<path d="M24 86H336" stroke="#303D4D" stroke-width="1.5" fill="none" />
+<g transform="translate(24 102) scale(1)">
+<rect x="0" y="0" width="146" height="52" rx="5" fill="#1C2430" stroke="#303D4D"/>
+<text x="73" y="32" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#E6EDF3" text-anchor="middle">GTK client</text>
+<rect x="166" y="0" width="146" height="52" rx="5" fill="#1C2430" stroke="#303D4D"/>
+<text x="239" y="32" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#E6EDF3" text-anchor="middle">JSON-RPC daemon</text>
+<rect x="0" y="85" width="146" height="52" rx="5" fill="#1C2430" stroke="#303D4D"/>
+<text x="73" y="117" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#E6EDF3" text-anchor="middle">runtime CLI</text>
+<rect x="166" y="85" width="146" height="52" rx="5" fill="#1C2430" stroke="#303D4D"/>
+<text x="239" y="117" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#E6EDF3" text-anchor="middle">Wine + prefix</text>
+<path d="M146 26H166M239 52V70H73V85M146 111H166" stroke="#58A6FF" stroke-width="2" fill="none" />
+</g>
+</svg>

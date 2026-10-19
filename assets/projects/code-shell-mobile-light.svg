@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="258" viewBox="0 0 360 258" role="img" aria-labelledby="title desc">
+<title id="title">Code Shell</title><desc id="desc">A prompt, with boundaries. Developer tooling. Source-based illustration, not a screenshot or live demo.</desc>
+<rect x="0.5" y="0.5" width="359" height="257" rx="12" fill="#F6F8FA" stroke="#CBD5E1"/>
+<text x="24" y="31" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#087580" text-anchor="start">Developer tooling</text>
+<text x="23" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#17283B" text-anchor="start">Code Shell</text>
+<path d="M24 86H336" stroke="#CBD5E1" stroke-width="1.5" fill="none" />
+<g transform="translate(24 102) scale(1)">
+<text x="0" y="22" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="400" fill="#087580" text-anchor="start">&gt; prompt</text>
+<path d="M0 37H312" stroke="#CBD5E1" stroke-width="1.5" fill="none" />
+<text x="0" y="65" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="400" fill="#17283B" text-anchor="start">agent loop</text>
+<path d="M142 58H312" stroke="#0969DA" stroke-width="2" fill="none" />
+<text x="0" y="101" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="400" fill="#17283B" text-anchor="start">approval</text>
+<path d="M142 94H312" stroke="#087580" stroke-width="2" fill="none" />
+<text x="0" y="137" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="400" fill="#17283B" text-anchor="start">tools</text>
+<text x="142" y="137" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" font-weight="400" fill="#526477" text-anchor="start">edit / shell</text>
+</g>
+</svg>

@@ -12,9 +12,11 @@ The dashboard is a dated snapshot of public GitHub data. Its source is [assets/d
 | Featured projects | Four verified public repositories: `easy-invoice`, `code-shell-rs`, `native-windows-application-runtime-on-linux`, and `manducart-v2`. Their current URLs and default branches are recorded in the JSON. |
 | Languages | GitHub language bytes summed across public owned original repositories. The profile repository is excluded so generated dashboard SVGs do not inflate the result. This measures repository contents, not proficiency, effort, or lines written. |
 | Public events | Returned public events in currently public owned repositories during 30 inclusive UTC calendar dates ending on the snapshot date. This is an event count, not commits or GitHub contributions. One push event can contain multiple commits. |
-| Creation timeline | Creation dates of currently public owned original repositories. It does not include deleted repositories or those currently private. |
+| Creation timeline | Counts of currently public owned original repositories grouped by creation year, including this profile repository. Forks, deleted repositories, and currently private repositories are excluded. This is not a count of shipped products. |
 
 The [GitHub Events API](https://docs.github.com/en/rest/activity/events) retains up to 30 days and returns at most 300 events; events can arrive late. The collector reads up to three pages of 100 events. `activity.events_returned` records the raw feed size; `activity.events_count` counts only qualifying public events in currently public owned repositories within the chart window. `activity.limited=true` means it reached 300 returned events. A false flag does not guarantee a complete historical record. A daily count of zero means **no returned events**, not proof of no activity. The same limitations apply when daily observations are grouped for a chart.
+
+The desktop activity chart uses daily bars with a numeric scale. The phone variant groups consecutive dates into seven-day intervals, starting on `window_start`; the final interval may contain fewer days. All 30 dates are represented once. Language charts show the five largest byte totals and combine remaining languages as “Other”; exact byte totals remain available in the JSON. Desktop and phone chart variants are generated from the same snapshot in the same refresh.
 
 ## Refreshing
 

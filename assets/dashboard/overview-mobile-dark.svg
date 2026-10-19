@@ -1,26 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="340" viewBox="0 0 560 340" role="img" aria-labelledby="title desc">
-<title id="title">Public engineering dashboard</title><desc id="desc">Public repos: 27 (Including forks); Stars: 1 (Across public repos); Original repos: 24 (Excluding forks); Featured: 4 (Verified repositories)</desc>
-<style>.signal{animation:signal 7s linear infinite}.cursor{animation:cursor 3s ease-in-out infinite}@keyframes signal{to{stroke-dashoffset:-120}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style>
-<rect x="0.5" y="0.5" width="559" height="339" rx="14" fill="#0D1117" stroke="#303D4D"/>
-<rect x="22" y="22" width="246" height="126" rx="8" fill="#161B22" stroke="#303D4D"/>
-<path d="M38 40h22" stroke="#39C5CF" stroke-width="2" fill="none" />
-<text x="38" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#A0ADBC" text-anchor="start">Public repos</text>
-<text x="38" y="113" font-family="'Segoe UI', Arial, sans-serif" font-size="43" font-weight="700" fill="#E6EDF3" text-anchor="start">27</text>
-<text x="38" y="136" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">Including forks</text>
-<rect x="292" y="22" width="246" height="126" rx="8" fill="#161B22" stroke="#303D4D"/>
-<path d="M308 40h22" stroke="#39C5CF" stroke-width="2" fill="none" />
-<text x="308" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#A0ADBC" text-anchor="start">Stars</text>
-<text x="308" y="113" font-family="'Segoe UI', Arial, sans-serif" font-size="43" font-weight="700" fill="#E6EDF3" text-anchor="start">1</text>
-<text x="308" y="136" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">Across public repos</text>
-<rect x="22" y="166" width="246" height="126" rx="8" fill="#161B22" stroke="#303D4D"/>
-<path d="M38 184h22" stroke="#39C5CF" stroke-width="2" fill="none" />
-<text x="38" y="212" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#A0ADBC" text-anchor="start">Original repos</text>
-<text x="38" y="257" font-family="'Segoe UI', Arial, sans-serif" font-size="43" font-weight="700" fill="#E6EDF3" text-anchor="start">24</text>
-<text x="38" y="280" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">Excluding forks</text>
-<rect x="292" y="166" width="246" height="126" rx="8" fill="#161B22" stroke="#303D4D"/>
-<path d="M308 184h22" stroke="#39C5CF" stroke-width="2" fill="none" />
-<text x="308" y="212" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#A0ADBC" text-anchor="start">Featured</text>
-<text x="308" y="257" font-family="'Segoe UI', Arial, sans-serif" font-size="43" font-weight="700" fill="#E6EDF3" text-anchor="start">4</text>
-<text x="308" y="280" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">Verified repositories</text>
-<text x="22" y="328" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A0ADBC" text-anchor="start">GitHub REST API · snapshot 2026-10-19 UTC</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="274" viewBox="0 0 360 274" role="img" aria-labelledby="title desc">
+<title id="title">Public engineering snapshot</title><desc id="desc">Public repos: 27 (Including forks); Stars: 1 (Across public repos); Originals: 24 (Excluding forks); Featured: 4 (Verified repositories)</desc>
+<rect x="8.5" y="8.5" width="165" height="109" rx="8" fill="#161B22" stroke="#303D4D"/>
+<text x="22" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#A0ADBC" text-anchor="start">Public repos</text>
+<text x="22" y="91" font-family="'Segoe UI', Arial, sans-serif" font-size="45" font-weight="700" fill="#E6EDF3" text-anchor="start">27</text>
+<g transform="translate(145 65)"><path d="M0 3h18v14H0ZM4 0v3M4 7h10M4 11h7" stroke="#58A6FF" stroke-width="1.5" fill="none" /></g>
+<rect x="186.5" y="8.5" width="165" height="109" rx="8" fill="#161B22" stroke="#303D4D"/>
+<text x="200" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#A0ADBC" text-anchor="start">Stars</text>
+<text x="200" y="91" font-family="'Segoe UI', Arial, sans-serif" font-size="45" font-weight="700" fill="#E6EDF3" text-anchor="start">1</text>
+<g transform="translate(323 65)"><path d="M9 0l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z" stroke="#58A6FF" stroke-width="1.5" fill="none" /></g>
+<rect x="8.5" y="128.5" width="165" height="109" rx="8" fill="#161B22" stroke="#303D4D"/>
+<text x="22" y="156" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#A0ADBC" text-anchor="start">Originals</text>
+<text x="22" y="211" font-family="'Segoe UI', Arial, sans-serif" font-size="45" font-weight="700" fill="#E6EDF3" text-anchor="start">24</text>
+<g transform="translate(145 185)"><path d="M3 0v12h12V0M3 6h12M3 12v6" stroke="#58A6FF" stroke-width="1.5" fill="none" /></g>
+<rect x="186.5" y="128.5" width="165" height="109" rx="8" fill="#161B22" stroke="#303D4D"/>
+<text x="200" y="156" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#A0ADBC" text-anchor="start">Featured</text>
+<text x="200" y="211" font-family="'Segoe UI', Arial, sans-serif" font-size="45" font-weight="700" fill="#E6EDF3" text-anchor="start">4</text>
+<g transform="translate(323 185)"><path d="M0 0h7v7H0ZM11 0h7v7h-7ZM0 11h7v7H0ZM11 11h7v7h-7Z" stroke="#58A6FF" stroke-width="1.5" fill="none" /></g>
+<text x="8" y="266" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A0ADBC" text-anchor="start">GitHub / 2026-10-19 UTC</text>
 </svg>
