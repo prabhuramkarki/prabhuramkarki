@@ -1,31 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="337" viewBox="0 0 360 337" role="img" aria-labelledby="title desc">
 <title id="title">Public original repository creation years</title><desc id="desc">2023: 8; 2024: 5; 2025: 9; 2026: 2. Counts of currently public original repositories by creation year; deleted and private repositories excluded.</desc>
-<rect x="0.5" y="0.5" width="359" height="336" rx="12" fill="#F6F8FA" stroke="#CBD5E1"/>
-<text x="24" y="42" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#17283B" text-anchor="start">The repository archive</text>
-<text x="24" y="75" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#526477" text-anchor="start">Original repos by creation year</text>
+<defs><linearGradient id="surface" x2="0" y2="1"><stop stop-color="#E7F0F7"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><linearGradient id="area" x2="0" y2="1"><stop stop-color="#00745A" stop-opacity=".4"/><stop offset="1" stop-color="#00745A" stop-opacity=".02"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#BDCEDC" stroke-opacity=".24"/></pattern><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect x="0.5" y="0.5" width="359" height="336" rx="12" fill="#F4F8FC" stroke="#BDCEDC"/>
+<text x="24" y="42" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#14293B" text-anchor="start">The repository archive</text>
+<text x="24" y="75" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#4B6174" text-anchor="start">Original repos by creation year</text>
 <g data-year="2023" data-count="8"><title>2023: 8 currently public original repositories</title>
-<text x="24" y="126" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#526477" text-anchor="start">2023</text>
-<rect x="91" y="110" width="209" height="20" rx="3" fill="#EAF0F6" stroke="none"/>
-<rect x="91" y="110" width="185.78" height="20" rx="3" fill="#0969DA" stroke="none"/>
-<text x="336" y="126" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#17283B" text-anchor="end">8</text>
+<text x="24" y="126" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#4B6174" text-anchor="start">2023</text>
+<rect x="91" y="110" width="209" height="20" rx="3" fill="#E7F0F7" stroke="none"/>
+<rect x="91" y="110" width="185.78" height="20" rx="3" fill="#075FBF" stroke="none"/>
+<text x="336" y="126" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#14293B" text-anchor="end">8</text>
 </g>
 <g data-year="2024" data-count="5"><title>2024: 5 currently public original repositories</title>
-<text x="24" y="174" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#526477" text-anchor="start">2024</text>
-<rect x="91" y="158" width="209" height="20" rx="3" fill="#EAF0F6" stroke="none"/>
-<rect x="91" y="158" width="116.11" height="20" rx="3" fill="#0969DA" stroke="none"/>
-<text x="336" y="174" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#17283B" text-anchor="end">5</text>
+<text x="24" y="174" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#4B6174" text-anchor="start">2024</text>
+<rect x="91" y="158" width="209" height="20" rx="3" fill="#E7F0F7" stroke="none"/>
+<rect x="91" y="158" width="116.11" height="20" rx="3" fill="#075FBF" stroke="none"/>
+<text x="336" y="174" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#14293B" text-anchor="end">5</text>
 </g>
 <g data-year="2025" data-count="9"><title>2025: 9 currently public original repositories</title>
-<text x="24" y="222" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#526477" text-anchor="start">2025</text>
-<rect x="91" y="206" width="209" height="20" rx="3" fill="#EAF0F6" stroke="none"/>
-<rect x="91" y="206" width="209.0" height="20" rx="3" fill="#0969DA" stroke="none"/>
-<text x="336" y="222" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#17283B" text-anchor="end">9</text>
+<text x="24" y="222" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#4B6174" text-anchor="start">2025</text>
+<rect x="91" y="206" width="209" height="20" rx="3" fill="#E7F0F7" stroke="none"/>
+<rect x="91" y="206" width="209.0" height="20" rx="3" fill="#075FBF" stroke="none"/>
+<text x="336" y="222" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#14293B" text-anchor="end">9</text>
 </g>
 <g data-year="2026" data-count="2"><title>2026: 2 currently public original repositories</title>
-<text x="24" y="270" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#526477" text-anchor="start">2026</text>
-<rect x="91" y="254" width="209" height="20" rx="3" fill="#EAF0F6" stroke="none"/>
-<rect x="91" y="254" width="46.44" height="20" rx="3" fill="#0969DA" stroke="none"/>
-<text x="336" y="270" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#17283B" text-anchor="end">2</text>
+<text x="24" y="270" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#4B6174" text-anchor="start">2026</text>
+<rect x="91" y="254" width="209" height="20" rx="3" fill="#E7F0F7" stroke="none"/>
+<rect x="91" y="254" width="46.44" height="20" rx="3" fill="#075FBF" stroke="none"/>
+<text x="336" y="270" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#14293B" text-anchor="end">2</text>
 </g>
-<text x="24" y="322" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#526477" text-anchor="start">Currently public originals only.</text>
+<text x="24" y="322" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#4B6174" text-anchor="start">Currently public originals only.</text>
 </svg>

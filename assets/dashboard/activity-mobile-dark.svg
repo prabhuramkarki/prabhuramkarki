@@ -1,38 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="478" viewBox="0 0 360 478" role="img" aria-labelledby="title desc">
 <title id="title">Recent public GitHub events</title><desc id="desc">Public events returned between 2026-09-20 and 2026-10-19: 43. Feed limited to 300 events over 30 days; may omit activity. Events are not commits or contributions. 2026-09-26: 7; 2026-09-28: 1; 2026-09-30: 14; 2026-10-16: 15; 2026-10-17: 1; 2026-10-19: 5</desc>
-<rect x="0.5" y="0.5" width="359" height="477" rx="12" fill="#0D1117" stroke="#303D4D"/>
-<text x="24" y="42" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#E6EDF3" text-anchor="start">Work in the open</text>
-<text x="24" y="74" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A0ADBC" text-anchor="start">Returned public events</text>
-<text x="24" y="108" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#58A6FF" text-anchor="start">43 events in this snapshot</text>
+<defs><linearGradient id="surface" x2="0" y2="1"><stop stop-color="#162B3A"/><stop offset="1" stop-color="#0E1924"/></linearGradient><linearGradient id="area" x2="0" y2="1"><stop stop-color="#1BE0AC" stop-opacity=".4"/><stop offset="1" stop-color="#1BE0AC" stop-opacity=".02"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#294253" stroke-opacity=".24"/></pattern><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect x="0.5" y="0.5" width="359" height="477" rx="12" fill="#090F17" stroke="#294253"/>
+<text x="24" y="42" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#E5EDF5" text-anchor="start">Work in the open</text>
+<text x="24" y="74" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A5B8C9" text-anchor="start">Returned public events</text>
+<text x="24" y="108" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#65C9F3" text-anchor="start">43 events in this snapshot</text>
 <g data-events="7"><title>2026-09-20 to 2026-09-26: 7 returned events</title>
-<text x="24" y="145" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A0ADBC" text-anchor="start">Sep 20 – Sep 26</text>
-<text x="336" y="145" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#E6EDF3" text-anchor="end">7</text>
-<rect x="24" y="156" width="312" height="6" rx="3" fill="#1C2430" stroke="none"/>
-<rect x="24" y="156" width="136.5" height="6" rx="3" fill="#39C5CF" stroke="none"/>
+<text x="24" y="145" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A5B8C9" text-anchor="start">Sep 20 – Sep 26</text>
+<text x="336" y="145" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#E5EDF5" text-anchor="end">7</text>
+<rect x="24" y="156" width="312" height="6" rx="3" fill="#162B3A" stroke="none"/>
+<rect x="24" y="156" width="136.5" height="6" rx="3" fill="#1BE0AC" stroke="none"/>
 </g>
 <g data-events="15"><title>2026-09-27 to 2026-10-03: 15 returned events</title>
-<text x="24" y="202" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A0ADBC" text-anchor="start">Sep 27 – Oct 03</text>
-<text x="336" y="202" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#E6EDF3" text-anchor="end">15</text>
-<rect x="24" y="213" width="312" height="6" rx="3" fill="#1C2430" stroke="none"/>
-<rect x="24" y="213" width="292.5" height="6" rx="3" fill="#39C5CF" stroke="none"/>
+<text x="24" y="202" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A5B8C9" text-anchor="start">Sep 27 – Oct 03</text>
+<text x="336" y="202" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#E5EDF5" text-anchor="end">15</text>
+<rect x="24" y="213" width="312" height="6" rx="3" fill="#162B3A" stroke="none"/>
+<rect x="24" y="213" width="292.5" height="6" rx="3" fill="#1BE0AC" stroke="none"/>
 </g>
 <g data-events="0"><title>2026-10-04 to 2026-10-10: 0 returned events</title>
-<text x="24" y="259" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A0ADBC" text-anchor="start">Oct 04 – Oct 10</text>
-<text x="336" y="259" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#E6EDF3" text-anchor="end">0</text>
-<rect x="24" y="270" width="312" height="6" rx="3" fill="#1C2430" stroke="none"/>
+<text x="24" y="259" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A5B8C9" text-anchor="start">Oct 04 – Oct 10</text>
+<text x="336" y="259" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#E5EDF5" text-anchor="end">0</text>
+<rect x="24" y="270" width="312" height="6" rx="3" fill="#162B3A" stroke="none"/>
 </g>
 <g data-events="16"><title>2026-10-11 to 2026-10-17: 16 returned events</title>
-<text x="24" y="316" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A0ADBC" text-anchor="start">Oct 11 – Oct 17</text>
-<text x="336" y="316" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#E6EDF3" text-anchor="end">16</text>
-<rect x="24" y="327" width="312" height="6" rx="3" fill="#1C2430" stroke="none"/>
-<rect x="24" y="327" width="312.0" height="6" rx="3" fill="#39C5CF" stroke="none"/>
+<text x="24" y="316" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A5B8C9" text-anchor="start">Oct 11 – Oct 17</text>
+<text x="336" y="316" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#E5EDF5" text-anchor="end">16</text>
+<rect x="24" y="327" width="312" height="6" rx="3" fill="#162B3A" stroke="none"/>
+<rect x="24" y="327" width="312.0" height="6" rx="3" fill="#1BE0AC" stroke="none"/>
 </g>
 <g data-events="5"><title>2026-10-18 to 2026-10-19: 5 returned events</title>
-<text x="24" y="373" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A0ADBC" text-anchor="start">Oct 18 – Oct 19</text>
-<text x="336" y="373" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#E6EDF3" text-anchor="end">5</text>
-<rect x="24" y="384" width="312" height="6" rx="3" fill="#1C2430" stroke="none"/>
-<rect x="24" y="384" width="97.5" height="6" rx="3" fill="#39C5CF" stroke="none"/>
+<text x="24" y="373" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#A5B8C9" text-anchor="start">Oct 18 – Oct 19</text>
+<text x="336" y="373" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#E5EDF5" text-anchor="end">5</text>
+<rect x="24" y="384" width="312" height="6" rx="3" fill="#162B3A" stroke="none"/>
+<rect x="24" y="384" width="97.5" height="6" rx="3" fill="#1BE0AC" stroke="none"/>
 </g>
-<text x="24" y="440" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#A0ADBC" text-anchor="start">Grouped by 7-day intervals.</text>
-<text x="24" y="463" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#A0ADBC" text-anchor="start">Feed may omit events; not commits.</text>
+<text x="24" y="440" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#A5B8C9" text-anchor="start">Grouped by 7-day intervals.</text>
+<text x="24" y="463" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#A5B8C9" text-anchor="start">Feed may omit events; not commits.</text>
 </svg>

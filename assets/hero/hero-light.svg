@@ -1,23 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-labelledby="title desc">
-<title id="title">Prabhuram Karki · Full-Stack Software Engineer</title><desc id="desc">From the interface down. Products, APIs, and the systems beneath them. Kathmandu, Nepal. A terminal and abstract contour lines; motion is decorative and stops after four seconds.</desc>
-<style>.signal{opacity:0;animation:signal 3s ease-out 1}.cursor{animation:cursor 1.6s ease-in-out 2}@keyframes signal{0%{stroke-dashoffset:120;opacity:0}20%,80%{opacity:1}100%{stroke-dashoffset:-120;opacity:0}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style><rect x="0.5" y="0.5" width="959" height="329" rx="12" fill="#F6F8FA" stroke="#CBD5E1"/>
-<text x="32" y="35" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#526477" text-anchor="start">prabhuramkarki / engineering</text>
-<text x="29" y="119" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="700" fill="#17283B" text-anchor="start">Prabhuram Karki</text>
-<text x="32" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="400" fill="#0969DA" text-anchor="start">Full-Stack Software Engineer</text>
-<text x="32" y="219" font-family="'Segoe UI', Arial, sans-serif" font-size="31" font-weight="400" fill="#17283B" text-anchor="start">From the interface down.</text>
-<text x="32" y="252" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#526477" text-anchor="start">Products, APIs, and the systems beneath them.</text>
-<g opacity=".3"><path d="M515 187.2 Q517.4 165.0 531.0 166.0 Q546.0 152.0 555 175.6 Q560.0 192.0 540.0 194.0 Q523.0 202.0 515 187.2Z" stroke="#CBD5E1" stroke-width="0.8" fill="none" /><path d="M501 193.64 Q505.08 155.9 528.2 157.6 Q553.7 133.8 569 173.92 Q577.5 201.8 543.5 205.2 Q514.6 218.8 501 193.64Z" stroke="#CBD5E1" stroke-width="0.8" fill="none" /><path d="M487 200.08 Q492.76 146.8 525.4 149.2 Q561.4 115.6 583 172.24 Q595.0 211.6 547.0 216.4 Q506.2 235.6 487 200.08Z" stroke="#CBD5E1" stroke-width="0.8" fill="none" /><path d="M473 206.52 Q480.44 137.7 522.6 140.8 Q569.1 97.39999999999999 597 170.56 Q612.5 221.4 550.5 227.6 Q497.8 252.39999999999998 473 206.52Z" stroke="#CBD5E1" stroke-width="0.8" fill="none" /><path d="M459 212.96 Q468.12 128.6 519.8 132.4 Q576.8 79.2 611 168.88 Q630.0 231.2 554.0 238.8 Q489.4 269.2 459 212.96Z" stroke="#CBD5E1" stroke-width="0.8" fill="none" /><path d="M445 219.4 Q455.8 119.5 517.0 124.0 Q584.5 61.0 625 167.2 Q647.5 241.0 557.5 250.0 Q481.0 286.0 445 219.4Z" stroke="#CBD5E1" stroke-width="0.8" fill="none" /><path d="M431 225.84 Q443.48 110.39999999999999 514.2 115.6 Q592.2 42.79999999999998 639 165.52 Q665.0 250.8 561.0 261.2 Q472.6 302.8 431 225.84Z" stroke="#CBD5E1" stroke-width="0.8" fill="none" /><path d="M417 232.28 Q431.15999999999997 101.3 511.4 107.2 Q599.9 24.599999999999994 653 163.84 Q682.5 260.6 564.5 272.4 Q464.2 319.6 417 232.28Z" stroke="#CBD5E1" stroke-width="0.8" fill="none" /></g>
-<rect x="620" y="54" width="308" height="220" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
-<text x="640" y="83" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#526477" text-anchor="start">identity.sh</text>
-<path d="M620 98H928" stroke="#CBD5E1" stroke-width="1.5" fill="none" />
-<text x="640" y="128" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#087580" text-anchor="start">$ whoami</text>
-<text x="640" y="157" font-family="'JetBrains Mono', Consolas, monospace" font-size="20" font-weight="400" fill="#17283B" text-anchor="start">Prabhuram Karki</text>
-<text x="640" y="194" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#087580" text-anchor="start">$ working_set</text>
-<text x="640" y="224" font-family="'JetBrains Mono', Consolas, monospace" font-size="17" font-weight="400" fill="#17283B" text-anchor="start">Vue / Nuxt / Laravel</text>
-<path d="M640 249H713V242H799V249H905" stroke="#0969DA" stroke-width="1.5" fill="none" />
-<path d="M640 249H713V242H799V249H905" stroke="#087580" stroke-width="2" fill="none" class="signal" stroke-dasharray="8 88"/>
-<rect x="883" y="208" width="8" height="19" rx="0" fill="#0969DA" stroke="none" class="cursor"/>
-<path d="M32 293H928" stroke="#CBD5E1" stroke-width="1.5" fill="none" />
-<text x="32" y="317" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#526477" text-anchor="start">Kathmandu, Nepal</text>
-<text x="928" y="317" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#526477" text-anchor="end">interface / application / system</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="390" viewBox="0 0 960 390" role="img" aria-labelledby="title desc">
+<title id="title">Prabhuram Karki · Full-Stack Software Engineer</title><desc id="desc">Build products. Understand systems. Full-stack software engineer in Kathmandu, Nepal. Vue, Nuxt, Quasar and Laravel; exploring Rust and Linux. Terminal motion is decorative and stops within four seconds.</desc>
+<defs><linearGradient id="surface" x2="0" y2="1"><stop stop-color="#E7F0F7"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><linearGradient id="area" x2="0" y2="1"><stop stop-color="#00745A" stop-opacity=".4"/><stop offset="1" stop-color="#00745A" stop-opacity=".02"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#BDCEDC" stroke-opacity=".24"/></pattern><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><style>.signal{opacity:0;animation:signal 3s ease-out 1}.cursor{animation:cursor 1.6s ease-in-out 2}@keyframes signal{0%{stroke-dashoffset:120;opacity:0}20%,80%{opacity:1}100%{stroke-dashoffset:-120;opacity:0}}@keyframes cursor{50%{opacity:.2}}@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style><rect x="0.5" y="0.5" width="959" height="389" rx="6" fill="#F4F8FC" stroke="#BDCEDC"/>
+<rect x="1" y="43" width="958" height="346" rx="0" fill="url(#grid)" stroke="none"/>
+<path d="M1 42H959" stroke="#BDCEDC" stroke-width="1.5" fill="none" />
+<text x="86" y="27" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B6174" text-anchor="start">~/prabhuramkarki / profile.console</text>
+<circle cx="24" cy="22" r="4.5" fill="#FF6B6B" />
+<circle cx="42" cy="22" r="4.5" fill="#F4C45E" />
+<circle cx="60" cy="22" r="4.5" fill="#28C895" />
+<text x="32" y="89" font-family="'JetBrains Mono', Consolas, monospace" font-size="19" font-weight="400" fill="#4B6174" text-anchor="start">// Full-Stack Software Engineer</text>
+<text x="28" y="153" font-family="'Segoe UI', Arial, sans-serif" font-size="65" font-weight="600" fill="#14293B" text-anchor="start">Prabhuram Karki</text>
+<text x="32" y="223" font-family="'Segoe UI', Arial, sans-serif" font-size="47" font-weight="400" fill="#00745A" text-anchor="start">build products.</text>
+<text x="32" y="280" font-family="'Segoe UI', Arial, sans-serif" font-size="47" font-weight="400" fill="#14293B" text-anchor="start">understand systems.</text>
+<text x="32" y="321" font-family="'JetBrains Mono', Consolas, monospace" font-size="18" font-weight="400" fill="#4B6174" text-anchor="start">Vue / Nuxt / Quasar / Laravel</text>
+<rect x="650" y="64" width="278" height="265" rx="3" fill="url(#surface)" stroke="#BDCEDC"/>
+<text x="670" y="91" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#4B6174" text-anchor="start">// working set</text>
+<text x="670" y="126" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#4B6174" text-anchor="start">interface</text>
+<text x="670" y="152" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#075FBF" text-anchor="start">Vue / Nuxt / Quasar</text>
+<path d="M670 169H908" stroke="#BDCEDC" stroke-width="1.5" fill="none" />
+<text x="670" y="195" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#4B6174" text-anchor="start">application</text>
+<text x="670" y="221" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#075FBF" text-anchor="start">Laravel / Node</text>
+<path d="M670 238H908" stroke="#BDCEDC" stroke-width="1.5" fill="none" />
+<text x="670" y="264" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#4B6174" text-anchor="start">exploration</text>
+<text x="670" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="400" fill="#00745A" text-anchor="start">Rust / Linux</text>
+<path d="M670 307H908" stroke="#BDCEDC" stroke-width="1.5" fill="none" />
+<path d="M32 347H928" stroke="#BDCEDC" stroke-width="1.5" fill="none" />
+<text x="32" y="374" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#4B6174" text-anchor="start">prabhuram@kathmandu:~/github $</text>
+<text x="379" y="374" font-family="'JetBrains Mono', Consolas, monospace" font-size="15" font-weight="400" fill="#00745A" text-anchor="start">explore --source</text>
+<path d="M791 368H909" stroke="#BDCEDC" stroke-width="1" fill="none" />
+<path d="M791 368H909" stroke="#00745A" stroke-width="2" fill="none" class="signal" stroke-dasharray="8 88"/>
+<rect x="918" y="355" width="7" height="15" rx="0" fill="#00745A" stroke="none" class="cursor"/>
 </svg>

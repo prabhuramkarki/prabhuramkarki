@@ -1,23 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="528" viewBox="0 0 360 528" role="img" aria-labelledby="title desc">
-<title id="title">Illustrative full-stack architecture</title><desc id="desc">Interface, application logic, and work and data have explicit boundaries. Delivery supports all layers. This is a conceptual pattern, not every project’s architecture.</desc>
-<rect x="0.5" y="0.5" width="359" height="527" rx="12" fill="#F6F8FA" stroke="#CBD5E1"/>
-<text x="24" y="43" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="700" fill="#17283B" text-anchor="start">One feature. Clear boundaries.</text>
-<text x="24" y="72" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#526477" text-anchor="start">An illustrative architecture</text>
-<rect x="24" y="94" width="312" height="87" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
-<text x="42" y="122" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="600" fill="#17283B" text-anchor="start">Interface</text>
-<text x="42" y="148" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#526477" text-anchor="start">Components / state</text>
-<text x="42" y="171" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#526477" text-anchor="start">Interaction / feedback</text>
-<path d="M180 181v18" stroke="#0969DA" stroke-width="2" fill="none" />
-<rect x="24" y="199" width="312" height="87" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
-<text x="42" y="227" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="600" fill="#17283B" text-anchor="start">Application</text>
-<text x="42" y="253" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#526477" text-anchor="start">API / authorization</text>
-<text x="42" y="276" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#526477" text-anchor="start">Validation / business rules</text>
-<path d="M180 286v18" stroke="#0969DA" stroke-width="2" fill="none" />
-<rect x="24" y="304" width="312" height="87" rx="10" fill="#FFFFFF" stroke="#CBD5E1"/>
-<text x="42" y="332" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="600" fill="#17283B" text-anchor="start">Work and data</text>
-<text x="42" y="358" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#526477" text-anchor="start">Queues / cache</text>
-<text x="42" y="381" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#526477" text-anchor="start">Schema / queries / storage</text>
-<rect x="24" y="420" width="312" height="84" rx="10" fill="#EAF0F6" stroke="#CBD5E1"/>
-<text x="42" y="448" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#0969DA" text-anchor="start">Delivery supports every layer</text>
-<text x="42" y="477" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#526477" text-anchor="start">Linux / containers / CI/CD</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="557" viewBox="0 0 360 557" role="img" aria-labelledby="title desc">
+<title id="title">Illustrative full-stack system map</title><desc id="desc">Components and state connect to application APIs, rules and authorization, then queues, cache and databases. Linux, containers and CI/CD support all layers. Conceptual architecture, not a deployed system or live telemetry.</desc>
+<defs><linearGradient id="surface" x2="0" y2="1"><stop stop-color="#E7F0F7"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><linearGradient id="area" x2="0" y2="1"><stop stop-color="#00745A" stop-opacity=".4"/><stop offset="1" stop-color="#00745A" stop-opacity=".02"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#BDCEDC" stroke-opacity=".24"/></pattern><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect x="0.5" y="0.5" width="359" height="556" rx="6" fill="#F4F8FC" stroke="#BDCEDC"/>
+<rect x="1" y="43" width="358" height="513" rx="0" fill="url(#grid)" stroke="none"/>
+<path d="M1 42H359" stroke="#BDCEDC" stroke-width="1.5" fill="none" />
+<text x="86" y="27" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B6174" text-anchor="start">system.map</text>
+<circle cx="24" cy="22" r="4.5" fill="#FF6B6B" />
+<circle cx="42" cy="22" r="4.5" fill="#F4C45E" />
+<circle cx="60" cy="22" r="4.5" fill="#28C895" />
+<path d="M180 110V420" stroke="#075FBF" stroke-width="2" fill="none" opacity=".4"/>
+<g transform="translate(180 115)">
+<path d="M0-27L35-8V15L0 35L-35 15V-8Z" stroke="#BDCEDC" stroke-width="1" fill="#E7F0F7" />
+<path d="M0-35L35-15L0 5L-35-15Z" stroke="#075FBF" stroke-width="1.5" fill="url(#surface)" />
+<path d="M0 5V35M-35-15V15M35-15V15" stroke="#075FBF" stroke-width="1.2" fill="none" />
+<path d="M0-25L19-14L0-3L-19-14Z" stroke="#075FBF" stroke-width="1" fill="#075FBF" opacity=".7" filter="url(#glow)"/>
+<text x="0" y="65" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="600" fill="#14293B" text-anchor="middle">Interface</text>
+<text x="0" y="91" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#4B6174" text-anchor="middle">Components / state</text>
+</g>
+<g transform="translate(180 256)">
+<path d="M0-27L35-8V15L0 35L-35 15V-8Z" stroke="#BDCEDC" stroke-width="1" fill="#E7F0F7" />
+<path d="M0-35L35-15L0 5L-35-15Z" stroke="#00745A" stroke-width="1.5" fill="url(#surface)" />
+<path d="M0 5V35M-35-15V15M35-15V15" stroke="#00745A" stroke-width="1.2" fill="none" />
+<path d="M0-25L19-14L0-3L-19-14Z" stroke="#00745A" stroke-width="1" fill="#00745A" opacity=".7" filter="url(#glow)"/>
+<text x="0" y="65" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="600" fill="#14293B" text-anchor="middle">Application</text>
+<text x="0" y="91" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#4B6174" text-anchor="middle">API / rules / permissions</text>
+</g>
+<g transform="translate(180 397)">
+<path d="M0-27L35-8V15L0 35L-35 15V-8Z" stroke="#BDCEDC" stroke-width="1" fill="#E7F0F7" />
+<path d="M0-35L35-15L0 5L-35-15Z" stroke="#00745A" stroke-width="1.5" fill="url(#surface)" />
+<path d="M0 5V35M-35-15V15M35-15V15" stroke="#00745A" stroke-width="1.2" fill="none" />
+<path d="M0-25L19-14L0-3L-19-14Z" stroke="#00745A" stroke-width="1" fill="#00745A" opacity=".7" filter="url(#glow)"/>
+<text x="0" y="65" font-family="'Segoe UI', Arial, sans-serif" font-size="21" font-weight="600" fill="#14293B" text-anchor="middle">Work and data</text>
+<text x="0" y="91" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#4B6174" text-anchor="middle">Queues / cache / database</text>
+</g>
+<path d="M24 518H336" stroke="#BDCEDC" stroke-width="1.5" fill="none" />
+<text x="180" y="544" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#4B6174" text-anchor="middle">Linux / containers / CI/CD</text>
 </svg>

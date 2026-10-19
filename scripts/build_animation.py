@@ -2,9 +2,10 @@
 
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
+from render_assets import PALETTES
 
 ROOT = Path(__file__).resolve().parents[1]
-BG, PANEL, TEXT, MUTED, LINE, ACCENT = '#0D1117', '#161B22', '#E6EDF3', '#A0ADBC', '#303D4D', '#39C5CF'
+BG, PANEL, TEXT, MUTED, LINE, ACCENT = (PALETTES['dark'][key] for key in ['bg','panel','text','muted','border','cyan'])
 
 
 def font(size):

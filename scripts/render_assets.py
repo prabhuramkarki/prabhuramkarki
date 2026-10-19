@@ -8,10 +8,10 @@ import json
 
 ROOT = Path(__file__).resolve().parents[1]
 PALETTES = {
-    'dark': dict(bg='#0D1117', panel='#161B22', soft='#1C2430', text='#E6EDF3',
-                 muted='#A0ADBC', border='#303D4D', blue='#58A6FF', cyan='#39C5CF'),
-    'light': dict(bg='#F6F8FA', panel='#FFFFFF', soft='#EAF0F6', text='#17283B',
-                  muted='#526477', border='#CBD5E1', blue='#0969DA', cyan='#087580'),
+    'dark': dict(bg='#090F17', panel='#0E1924', soft='#162B3A', text='#E5EDF5',
+                 muted='#A5B8C9', border='#294253', blue='#65C9F3', cyan='#1BE0AC'),
+    'light': dict(bg='#F4F8FC', panel='#FFFFFF', soft='#E7F0F7', text='#14293B',
+                  muted='#4B6174', border='#BDCEDC', blue='#075FBF', cyan='#00745A'),
 }
 
 
@@ -46,10 +46,20 @@ def document(title, description, width, height, content, theme):
                   '@keyframes signal{0%{stroke-dashoffset:120;opacity:0}20%,80%{opacity:1}'
                   '100%{stroke-dashoffset:-120;opacity:0}}@keyframes cursor{50%{opacity:.2}}'
                   '@media(prefers-reduced-motion:reduce){.signal,.cursor{animation:none}}</style>')
+    definitions = ('<defs><linearGradient id="surface" x2="0" y2="1">'
+                   '<stop stop-color="'+PALETTES[theme]['soft']+'"/>'
+                   '<stop offset="1" stop-color="'+PALETTES[theme]['panel']+'"/></linearGradient>'
+                   '<linearGradient id="area" x2="0" y2="1">'
+                   '<stop stop-color="'+PALETTES[theme]['cyan']+'" stop-opacity=".4"/>'
+                   '<stop offset="1" stop-color="'+PALETTES[theme]['cyan']+'" stop-opacity=".02"/></linearGradient>'
+                   '<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">'
+                   '<path d="M24 0H0V24" fill="none" stroke="'+PALETTES[theme]['border']+'" stroke-opacity=".24"/></pattern>'
+                   '<filter id="glow" x="-80%" y="-80%" width="260%" height="260%">'
+                   '<feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" '
             f'viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">\n'
             f'<title id="title">{escape(title)}</title><desc id="desc">{escape(description)}</desc>\n'
-            + motion + body + '\n</svg>\n')
+            + definitions + motion + body + '\n</svg>\n')
 
 
 def contours(cx, cy):
@@ -65,38 +75,40 @@ def contours(cx, cy):
     return ''.join(lines)
 
 
+def console_header(width, label):
+    p=[path(f'M1 42H{width-1}'),text(86,27,label,13,'muted',mono=True)]
+    for i,color in enumerate(['#FF6B6B','#F4C45E','#28C895']):
+        p += [circle(24+i*18,22,4.5,color)]
+    return p
+
+
 def hero(theme, mobile=False):
-    w, h = (360, 330) if mobile else (960, 330)
-    p = [rect(.5,.5,w-1,h-1,'bg',radius=12)]
+    w,h=(360,374) if mobile else (960,390)
+    p=[rect(.5,.5,w-1,h-1,'bg',radius=6),rect(1,43,w-2,h-44,'url(#grid)','none',0)]
+    p += console_header(w,'~/profile' if mobile else '~/prabhuramkarki / profile.console')
     if mobile:
-        p += ['<g opacity=".45">'+contours(287,126)+'</g>',
-              text(24,32,'prabhuramkarki / engineering',13,'muted',mono=True),
-              text(22,91,'Prabhuram',45,weight=700),text(22,139,'Karki',45,weight=700),
-              text(24,175,'Full-Stack Software Engineer',18,'blue'),
-              text(24,217,'From the interface down.',24),
-              rect(24,238,312,52),text(38,272,'$ whoami',18,'cyan',mono=True),
-              text(24,313,'Kathmandu, Nepal',16,'muted',mono=True)]
-        route = 'M177 264H303'
-        p += [path(route,'border'),path(route,'cyan',2,extra='class="signal" stroke-dasharray="8 88"'),
-              rect(310,254,8,19,'blue','none',0).replace('/>',' class="cursor"/>')]
+        p += [text(24,79,'Full-Stack Software Engineer',17,'muted'),
+              text(21,134,'Prabhuram',46,weight=600),text(21,184,'Karki',46,weight=600),
+              text(24,240,'build products.',29,'cyan'),text(24,280,'understand systems.',29),
+              path('M24 305H336'),text(24,334,'Vue / Nuxt / Laravel',16,'muted',mono=True),
+              text(24,359,'Kathmandu, Nepal',15,'muted',mono=True)]
+        route='M258 345H331'
     else:
-        p += [text(32,35,'prabhuramkarki / engineering',14,'muted',mono=True),
-              text(29,119,'Prabhuram Karki',64,weight=700),
-              text(32,160,'Full-Stack Software Engineer',23,'blue'),
-              text(32,219,'From the interface down.',31),
-              text(32,252,'Products, APIs, and the systems beneath them.',18,'muted'),
-              '<g opacity=".3">'+contours(535,178)+'</g>',rect(620,54,308,220),
-              text(640,83,'identity.sh',14,'muted',mono=True),path('M620 98H928'),
-              text(640,128,'$ whoami',18,'cyan',mono=True),text(640,157,'Prabhuram Karki',20,mono=True),
-              text(640,194,'$ working_set',18,'cyan',mono=True),
-              text(640,224,'Vue / Nuxt / Laravel',17,mono=True)]
-        route = 'M640 249H713V242H799V249H905'
-        p += [path(route,'blue'),path(route,'cyan',2,extra='class="signal" stroke-dasharray="8 88"'),
-              rect(883,208,8,19,'blue','none',0).replace('/>',' class="cursor"/>'),
-              path('M32 293H928'),text(32,317,'Kathmandu, Nepal',14,'muted',mono=True),
-              text(928,317,'interface / application / system',14,'muted',mono=True,anchor='end')]
+        p += [text(32,89,'// Full-Stack Software Engineer',19,'muted',mono=True),
+              text(28,153,'Prabhuram Karki',65,weight=600),
+              text(32,223,'build products.',47,'cyan'),text(32,280,'understand systems.',47),
+              text(32,321,'Vue / Nuxt / Quasar / Laravel',18,'muted',mono=True),
+              rect(650,64,278,265,'url(#surface)',radius=3),text(670,91,'// working set',15,'muted',mono=True)]
+        for i,(label,value) in enumerate([('interface','Vue / Nuxt / Quasar'),('application','Laravel / Node'),('exploration','Rust / Linux')]):
+            y=126+i*69
+            p += [text(670,y,label,14,'muted',mono=True),text(670,y+26,value,19,'blue' if i<2 else 'cyan'),path(f'M670 {y+43}H908')]
+        p += [path('M32 347H928'),text(32,374,'prabhuram@kathmandu:~/github $',15,'muted',mono=True),
+              text(379,374,'explore --source',15,'cyan',mono=True)]
+        route='M791 368H909'
+    p += [path(route,'border',1),path(route,'cyan',2,extra='class="signal" stroke-dasharray="8 88"'),
+          rect(w-42,h-35,7,15,'cyan','none',0).replace('/>',' class="cursor"/>')]
     return document('Prabhuram Karki · Full-Stack Software Engineer',
-                    'From the interface down. Products, APIs, and the systems beneath them. Kathmandu, Nepal. A terminal and abstract contour lines; motion is decorative and stops after four seconds.',w,h,p,theme)
+                    'Build products. Understand systems. Full-stack software engineer in Kathmandu, Nepal. Vue, Nuxt, Quasar and Laravel; exploring Rust and Linux. Terminal motion is decorative and stops within four seconds.',w,h,p,theme)
 
 
 PROJECTS = {
@@ -108,88 +120,115 @@ PROJECTS = {
 
 
 def project_cover(key, theme, mobile=False):
-    title, category, summary = PROJECTS[key]
-    w,h = (360,258) if mobile else (960,280 if key=='code-shell' else 224)
-    p=[rect(.5,.5,w-1,h-1,'bg',radius=12)]
-    if mobile:
-        p += [text(24,31,category,14,'cyan'),text(23,68,title,25,weight=700),path('M24 86H336')]
-        x,y,scale=24,102,1
-    else:
-        p += [path(f'M0 24V{h-24}','blue',3),text(32,36,category,15,'cyan'),
-              text(30,91,title,36,weight=700),text(32,131,summary,23,'muted'),
-              text(32,h-26,'Source-based illustration',14,'muted',mono=True),
-              rect(560,18,380,h-36,'panel',radius=8)]
-        x,y,scale=590,56 if key=='code-shell' else 29,1
-    p += [f'<g transform="translate({x} {y}) scale({scale})">']
-    if key=='code-shell':
-        p += [text(0,22,'> prompt',19,'cyan',mono=True),path('M0 37H312'),
-              text(0,65,'agent loop',19,mono=True),path('M142 58H312','blue',2),
-              text(0,101,'approval',19,mono=True),path('M142 94H312','cyan',2),
-              text(0,137,'tools',19,mono=True),text(142,137,'edit / shell',17,'muted',mono=True)]
-        if not mobile:
-            p += [text(0,181,'core / providers / tools / cli',14,'muted',mono=True)]
-    elif key=='easy-invoice':
-        p += [rect(0,0,98,131,'soft',radius=4),text(14,30,'invoice',17,'blue')]
-        for i in range(4):p += [path(f'M14 {50+i*18}H82','border',2)]
-        p += [path('M113 65H160','cyan',2),path('M152 57l8 8-8 8','cyan',2)]
-        for i,label in enumerate(['number','date','vendor','total']):
-            p += [text(177,25+i*33,label,18,mono=True)]
-        if not mobile:p += [text(0,165,'Tesseract → fields → database + CSV',14,'muted',mono=True)]
-    elif key=='manducart':
-        for i,label in enumerate(['Catalog','Account','Cart']):
-            bx=i*108
-            p += [rect(bx,0,96,55,'soft',radius=5),text(bx+48,34,label,17,anchor='middle')]
-        p += [path('M48 55V77H264V55M156 55V96','blue',2),
-              rect(52,96,208,46,'panel',radius=5),text(156,125,'Laravel API',20,'cyan',anchor='middle')]
-        if not mobile:p += [text(0,174,'Vue + Pinia / API / product data',14,'muted',mono=True)]
-    else:
-        for i,label in enumerate(['GTK client','JSON-RPC daemon','runtime CLI','Wine + prefix']):
-            bx,by=(i%2)*166,(i//2)*85
-            p += [rect(bx,by,146,52,'soft',radius=5),text(bx+73,by+32,label,15 if i==1 else 17,anchor='middle')]
-        p += [path('M146 26H166M239 52V70H73V85M146 111H166','blue',2)]
-        if not mobile:p += [text(0,174,'Experimental / Wine-backed',14,'muted',mono=True)]
-    p += ['</g>']
-    return document(title,f'{summary} {category}. Source-based illustration, not a screenshot or live demo.',w,h,p,theme)
+    title,category,summary=PROJECTS[key]
+    if key=='linux-runtime':title='Windows runtime'
+    w,h=(360,254) if mobile else (460,254)
+    lines={
+        'code-shell':('A native Rust coding agent.','Streaming models. Controlled tools.',('Rust','Tokio','CLI'),'core / providers / tools / cli'),
+        'easy-invoice':('Invoice images into structured data.','OCR, field extraction, database + CSV.',('React','Django','OCR'),'image → text → fields → record'),
+        'manducart':('A storefront connected to its API.','Catalog, accounts, and cart operations.',('Vue','Pinia','Laravel'),'prototype / checkout unfinished'),
+        'linux-runtime':('Windows applications on a Linux host.','Per-app prefixes and sandbox policies.',('Rust','Wine','GTK 4'),'experimental / Wine-backed'),
+    }
+    first,second,tags,note=lines[key]
+    p=[rect(.5,.5,w-1,h-1,'url(#surface)',radius=8),path(f'M18 1H{w-18}','blue',1.5),
+       '<g transform="translate(23 24)">'+path('M12 0l12 7v14l-12 7L0 21V7ZM0 7l12 7 12-7M12 14v14','blue',1.5)+'</g>',
+       text(62,44,title,24,weight=600),
+       path(f'M{w-38} 27h14v14M{w-24} 27l-16 16M{w-29} 48h-18V30','muted',1.3),
+       text(24,91,first,16 if mobile else 19),text(24,119,second,15 if mobile else 18,'muted')]
+    x=24
+    for tag in tags:
+        tw=round(len(tag)*9+22)
+        p += [rect(x,143,tw,29,'soft','border',3),text(x+11,163,tag,15,'blue')]
+        x += tw+8
+    p += [path(f'M24 194H{w-24}'),text(24,220,category,14,'cyan'),
+          text(24,242,note,12 if mobile else 13,'muted',mono=True)]
+    return document(title,f'{first} {second} {category}. {note}. Repository card, not an application screenshot.',w,h,p,theme)
+
+
+def system_node(x, y, label, detail, color='cyan'):
+    p=[f'<g transform="translate({x} {y})">',
+       path('M0-27L35-8V15L0 35L-35 15V-8Z','border',1,'soft'),
+       path('M0-35L35-15L0 5L-35-15Z',color,1.5,'url(#surface)'),
+       path('M0 5V35M-35-15V15M35-15V15',color,1.2),
+       path('M0-25L19-14L0-3L-19-14Z',color,1,color,extra='opacity=".7" filter="url(#glow)"'),
+       text(0,65,label,21,weight=600,anchor='middle'),text(0,91,detail,15,'muted',anchor='middle'),'</g>']
+    return p
 
 
 def architecture(theme, mobile=False):
-    w,h=(360,528) if mobile else (960,330)
-    p=[rect(.5,.5,w-1,h-1,'bg',radius=12),text(24 if mobile else 32,43,'One feature. Clear boundaries.',22 if mobile else 32,weight=700),
-       text(24 if mobile else 32,72,'An illustrative architecture',17,'muted')]
-    nodes=[('Interface','Components / state','Interaction / feedback'),
-           ('Application','API / authorization','Validation / business rules'),
-           ('Work and data','Queues / cache','Schema / queries / storage')]
-    for i,(title,detail,detail2) in enumerate(nodes):
-        x,y,nw=(24,94+i*105,312) if mobile else (32+i*310,104,276)
-        p += [rect(x,y,nw,87 if mobile else 124),text(x+18,y+28,title,23,weight=600),
-              text(x+18,y+54,detail,17 if mobile else 19,'muted'),text(x+18,y+77 if mobile else y+87,detail2,17 if mobile else 19,'muted')]
-        if i<2:
-            p += [path(f'M180 {y+87}v18' if mobile else f'M{x+nw} 166h34','blue',2)]
-    p += [rect(24 if mobile else 32,420 if mobile else 256,312 if mobile else 896,84 if mobile else 51,'soft'),
-          text(42 if mobile else 50,448 if mobile else 288,'Delivery supports every layer',18 if mobile else 20,'blue')]
-    p += [text(42,477,'Linux / containers / CI/CD',17,'muted')] if mobile else [text(910,288,'Linux / containers / CI/CD',18,'muted',mono=True,anchor='end')]
-    return document('Illustrative full-stack architecture','Interface, application logic, and work and data have explicit boundaries. Delivery supports all layers. This is a conceptual pattern, not every project’s architecture.',w,h,p,theme)
+    w,h=(360,557) if mobile else (960,400)
+    p=[rect(.5,.5,w-1,h-1,'bg',radius=6),rect(1,43,w-2,h-44,'url(#grid)','none',0)]
+    p += console_header(w,'system.map' if mobile else 'system.map / illustrative architecture')
+    if mobile:
+        p += [path('M180 110V420','blue',2,extra='opacity=".4"')]
+        for i,(label,detail) in enumerate([('Interface','Components / state'),('Application','API / rules / permissions'),('Work and data','Queues / cache / database')]):
+            p += system_node(180,115+i*141,label,detail,'blue' if i==0 else 'cyan')
+        p += [path('M24 518H336'),text(180,544,'Linux / containers / CI/CD',16,'muted',anchor='middle')]
+    else:
+        p += [text(32,81,'Follow the feature through the system.',24,weight=500),
+              path('M176 174L460 206L770 174M460 206V293','blue',2,extra='opacity=".55"'),
+              path('M176 174L460 206L770 174','cyan',7,extra='opacity=".1" filter="url(#glow)"')]
+        for x,y,label,detail,color in [(176,160,'Interface','Components / state','blue'),(460,192,'Application','API / validation / authorization','cyan'),(770,160,'Work and data','Queues / cache / database','blue')]:
+            p += system_node(x,y,label,detail,color)
+        p += [rect(339,309,242,36,'panel',radius=3),text(460,333,'Linux / containers / CI/CD',16,'cyan',anchor='middle'),
+              path('M32 366H928'),text(32,388,'Conceptual architecture / delivery supports every layer',15,'muted',mono=True)]
+    return document('Illustrative full-stack system map','Components and state connect to application APIs, rules and authorization, then queues, cache and databases. Linux, containers and CI/CD support all layers. Conceptual architecture, not a deployed system or live telemetry.',w,h,p,theme)
 
 
 def overview(data, theme, mobile=False):
-    w,h=(360,274) if mobile else (960,180)
-    m=data['metrics']
-    items=[('Public repos',m['public_repos'],'Including forks'),('Stars',m['total_stars'],'Across public repos'),
-           ('Originals' if mobile else 'Original repos',m['original_repos'],'Excluding forks'),('Featured',m['featured_projects'],'Verified repositories')]
-    icons=['M0 3h18v14H0ZM4 0v3M4 7h10M4 11h7','M9 0l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z',
-           'M3 0v12h12V0M3 6h12M3 12v6','M0 0h7v7H0ZM11 0h7v7h-7ZM0 11h7v7H0ZM11 11h7v7h-7Z']
-    p=[]
+    w,h=(360,843) if mobile else (960,516)
+    m=data['metrics'];a=data['activity']
+    p=[rect(.5,.5,w-1,h-1,'bg',radius=6),rect(1,43,w-2,h-44,'url(#grid)','none',0)]
+    p += console_header(w,'public.profile' if mobile else 'public.profile / GitHub REST API snapshot')
+    items=[('Public repos',m['public_repos'],'Including forks'),('Stars',m['total_stars'],'Public repositories'),
+           ('Originals',m['original_repos'],'Excluding forks'),('Featured',m['featured_projects'],'Verified source')]
     for i,(label,value,detail) in enumerate(items):
-        x,y=(8+(i%2)*178,8+(i//2)*120) if mobile else (i*242,4)
-        cw=166 if mobile else 234
-        p += [rect(x+.5,y+.5,cw-1,109 if mobile else 144,'panel',radius=8),
-              text(x+14,y+28,label,16 if mobile else 18,'muted'),
-              text(x+14,y+83,value,45 if mobile else 53,weight=700),
-              f'<g transform="translate({x+cw-29} {y+57})">'+path(icons[i],'blue',1.5)+'</g>']
-        if not mobile:p += [text(x+14,y+125,detail,15,'muted')]
-    p += [text(8 if mobile else 0,h-8,f'GitHub / {data["updated_at"]} UTC',13 if mobile else 14,'muted',mono=True)]
+        x,y=(16+(i%2)*170,60+(i//2)*110) if mobile else (20+i*235,62)
+        cw=158 if mobile else 215
+        p += [rect(x,y,cw,96 if mobile else 110,'url(#surface)',radius=4),
+              path(f'M{x+14} {y+16}h20','cyan',2),text(x+14,y+43,label,16,'muted'),
+              text(x+14,y+83,value,40,weight=600),path(f'M{x+cw-30} {y+66}v13h14v-13Z','blue',1.3)]
+        if not mobile:p += [text(x+76,y+83,detail,13,'muted')]
+    # Every plotted point is a returned event count. The area uses straight segments.
+    px,py,pw,ph=(16,294,328,224) if mobile else (20,195,556,278)
+    p += [rect(px,py,pw,ph,'panel',radius=4),text(px+18,py+31,'Public events / 30 UTC dates',15 if mobile else 18,'muted'),
+          text(px+18,py+62,f'{a["events_count"]} returned events',22 if mobile else 26,'cyan')]
+    left,right,bottom,top=px+35,px+pw-18,py+ph-45,py+92
+    days=a['days'];peak=max((d['count'] for d in days),default=0)
+    for tick in sorted({0,(peak+1)//2,peak}):
+        yy=bottom-(tick/peak*(bottom-top) if peak else 0)
+        p += [path(f'M{left} {yy}H{right}','border',.7),text(left-8,yy+4,tick,11 if mobile else 13,'muted',mono=True,anchor='end')]
+    points=[]
+    bw=(right-left)/max(1,len(days))
+    for i,day in enumerate(days):
+        bh=(day['count']/peak*(bottom-top)) if peak else 0
+        xx=left+(i+.5)*bw;yy=bottom-bh;points.append((xx,yy))
+        p += [rect(round(left+i*bw,2),round(yy,2),round(max(1,bw-2),2),round(bh,2),'cyan','none',0).replace('/>',f' data-events="{day["count"]}"/>')]
+    if points:
+        route='M'+'L'.join(f'{x:.2f} {y:.2f}' for x,y in points)
+        area=route+f'L{points[-1][0]:.2f} {bottom}L{points[0][0]:.2f} {bottom}Z'
+        p += [path(area,'none',0,'url(#area)'),path(route,'cyan',1.5)]
+    p += [text(left,bottom+23,date.fromisoformat(a['window_start']).strftime('%b %d'),13,'muted',mono=True),
+          text(right,bottom+23,date.fromisoformat(a['window_end']).strftime('%b %d'),13,'muted',mono=True,anchor='end')]
+    if a['limited']:p += [text(px+pw-18,py+60,'API cap',12,'muted',anchor='end')]
+    lx,ly,lw,lh=(16,534,328,264) if mobile else (596,195,344,278)
+    p += [rect(lx,ly,lw,lh,'panel',radius=4),text(lx+18,ly+31,'Language bytes / originals',15 if mobile else 18,'muted')]
+    raw=sorted(data['languages'],key=lambda row:row['bytes'],reverse=True);total=sum(row['bytes'] for row in raw)
+    rows=raw[:5]
+    if len(raw)>5:rows += [{'name':'Other','bytes':sum(row['bytes'] for row in raw[5:])}]
+    for i,row in enumerate(rows):
+        yy=ly+63+i*30;share=row['bytes']/total*100 if total else 0
+        p += [f'<g data-language="{escape(row["name"],quote=True)}" data-share="{share:.1f}">',
+              text(lx+18,yy,row['name'],16),text(lx+lw-18,yy,f'{share:.1f}%',16,'muted',mono=True,anchor='end'),
+              rect(lx+18,yy+8,lw-36,4,'soft','none',2)]
+        if share:p += [rect(lx+18,yy+8,round((lw-36)*share/100,2),4,'blue' if i%2 else 'cyan','none',2)]
+        p += ['</g>']
+    if not rows:p += [text(lx+18,ly+86,'No language bytes reported',17,'muted')]
+    p += [text(20,h-24,f'{data["updated_at"]} UTC / public-data snapshot',12 if mobile else 14,'muted',mono=True)]
+    if not mobile:p += [text(w-20,h-24,'Events ≠ commits / bytes ≠ proficiency',13,'muted',mono=True,anchor='end')]
     desc='; '.join(f'{label}: {value} ({detail})' for label,value,detail in items)
-    return document('Public engineering snapshot',desc,w,h,p,theme)
+    desc += f'. {a["events_count"]} returned events from {a["window_start"]} to {a["window_end"]}; capped and possibly incomplete. Language shares represent repository bytes, not proficiency.'
+    return document('Public engineering console',desc,w,h,p,theme)
 
 
 def languages(data, theme, mobile=False):

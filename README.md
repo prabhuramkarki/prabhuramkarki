@@ -3,7 +3,7 @@
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/hero/hero-mobile-dark.svg">
   <source media="(max-width: 480px)" srcset="assets/hero/hero-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero/hero-dark.svg">
-  <img src="assets/hero/hero-light.svg" width="100%" alt="Prabhuram Karki. Full-Stack Software Engineer in Kathmandu, Nepal. From the interface down. Products, APIs, and the systems beneath them.">
+  <img src="assets/hero/hero-light.svg" width="100%" alt="Prabhuram Karki. Full-Stack Software Engineer in Kathmandu, Nepal. Build products. Understand systems.">
 </picture>
 </h1>
 
@@ -11,31 +11,43 @@
 
 I build across the interface, API, and data model, primarily with **Vue, Nuxt, Quasar, and Laravel**. I care about a feature’s whole path: what people experience, the rules behind it, and the code someone will maintain next.
 
-## Public engineering snapshot
-
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/overview-mobile-dark.svg">
-  <source media="(max-width: 600px)" srcset="assets/dashboard/overview-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/overview-dark.svg">
-  <img src="assets/dashboard/overview-light.svg" width="100%" alt="Dated GitHub dashboard: public repositories, stars, original repositories, and verified featured projects. Exact values and definitions are available in the linked data snapshot.">
-</picture>
-
-[Public data snapshot](assets/dashboard/data.json) · [Metric definitions and refresh schedule](docs/dashboard.md)
-
 ## Selected engineering work
 
-Four public repositories, four different engineering problems. The covers below are custom illustrations; source links show the actual implementations.
+Four public builds, from product interfaces to developer tools and Linux runtimes. Open a card to explore its source.
+
+<p align="center">
+<a href="https://github.com/prabhuramkarki/code-shell-rs"><picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/code-shell-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/projects/code-shell-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/code-shell-dark.svg">
+  <img src="assets/projects/code-shell-light.svg" width="440" alt="Code Shell: a native Rust coding agent. Streaming providers, permission checks, diff-based edits, and a terminal REPL.">
+</picture></a>
+<a href="https://github.com/prabhuramkarki/easy-invoice"><picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/easy-invoice-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/projects/easy-invoice-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/easy-invoice-dark.svg">
+  <img src="assets/projects/easy-invoice-light.svg" width="440" alt="Easy Invoice: a React and Django image OCR prototype. Tesseract extracts fields for database records and CSV output.">
+</picture></a>
+<a href="https://github.com/prabhuramkarki/manducart-v2"><picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/manducart-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/projects/manducart-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/manducart-dark.svg">
+  <img src="assets/projects/manducart-light.svg" width="440" alt="ManduCart v2: Vue, Pinia, and Laravel storefront prototype with catalog, accounts, and cart operations. Checkout remains unfinished.">
+</picture></a>
+<a href="https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux"><picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/linux-runtime-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/projects/linux-runtime-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects/linux-runtime-dark.svg">
+  <img src="assets/projects/linux-runtime-light.svg" width="440" alt="Windows application runtime on Linux: an experimental Rust project using Wine, per-app prefixes, and sandbox policies.">
+</picture></a>
+</p>
+
+[Code Shell](https://github.com/prabhuramkarki/code-shell-rs) · [Easy Invoice](https://github.com/prabhuramkarki/easy-invoice) · [ManduCart v2](https://github.com/prabhuramkarki/manducart-v2) · [Windows runtime](https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux)
+
+<details>
+<summary>Implementation notes, contributions, and source links</summary>
 
 ### [Code Shell](https://github.com/prabhuramkarki/code-shell-rs)
-
-<a href="https://github.com/prabhuramkarki/code-shell-rs">
-  <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/code-shell-mobile-dark.svg">
-    <source media="(max-width: 480px)" srcset="assets/projects/code-shell-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/code-shell-dark.svg">
-    <img src="assets/projects/code-shell-light.svg" width="100%" alt="Code Shell: an illustrated terminal and the separation of prompt handling, planning, and tool execution.">
-  </picture>
-</a>
 
 **A coding agent in a native Rust CLI.** Work with a codebase through an interactive terminal or scripted prompts. Four crates separate the agent loop, streaming providers, tools, and CLI; tool calls pass through a permission engine, file edits produce diffs, and the shell tool has a timeout. My contributions include the terminal REPL and command handling.
 
@@ -45,15 +57,6 @@ Four public repositories, four different engineering problems. The covers below 
 
 ### [Easy Invoice](https://github.com/prabhuramkarki/easy-invoice)
 
-<a href="https://github.com/prabhuramkarki/easy-invoice">
-  <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/easy-invoice-mobile-dark.svg">
-    <source media="(max-width: 480px)" srcset="assets/projects/easy-invoice-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/easy-invoice-dark.svg">
-    <img src="assets/projects/easy-invoice-light.svg" width="100%" alt="Easy Invoice: a schematic invoice image moving into structured number, date, vendor, and total fields.">
-  </picture>
-</a>
-
 **Reduce manual invoice transcription.** A React upload interface sends an image to Django; Pillow prepares it for Tesseract, regular expressions extract fields, and the backend saves a database record and appends a CSV row. This prototype processes images and retains uploads and extracted data.
 
 `React` `TypeScript` `Django REST Framework` `MySQL` `Tesseract`
@@ -61,15 +64,6 @@ Four public repositories, four different engineering problems. The covers below 
 [Repository](https://github.com/prabhuramkarki/easy-invoice) · [Upload interface](https://github.com/prabhuramkarki/easy-invoice/blob/main/frontend/src/components/InvoiceForm.tsx) · [Processing pipeline](https://github.com/prabhuramkarki/easy-invoice/blob/main/backend/invoices/views.py)
 
 ### [ManduCart v2](https://github.com/prabhuramkarki/manducart-v2)
-
-<a href="https://github.com/prabhuramkarki/manducart-v2">
-  <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/manducart-mobile-dark.svg">
-    <source media="(max-width: 480px)" srcset="assets/projects/manducart-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/manducart-dark.svg">
-    <img src="assets/projects/manducart-light.svg" width="100%" alt="ManduCart v2: an illustrative storefront catalog, connected to Vue and Laravel application layers.">
-  </picture>
-</a>
 
 **Connect a storefront to its product and account data.** A Vue application with Pinia and Tailwind CSS sits over Laravel APIs for products, signup, login, and cart operations. It is an e-commerce prototype; checkout, payments, and complete access controls remain unfinished.
 
@@ -79,20 +73,54 @@ Four public repositories, four different engineering problems. The covers below 
 
 ### [Windows application runtime on Linux](https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux)
 
-<a href="https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux">
-  <picture>
-    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/linux-runtime-mobile-dark.svg">
-    <source media="(max-width: 480px)" srcset="assets/projects/linux-runtime-mobile-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="assets/projects/linux-runtime-dark.svg">
-    <img src="assets/projects/linux-runtime-light.svg" width="100%" alt="Experimental runtime: CLI and GTK clients communicate with a local JSON-RPC daemon above Wine.">
-  </picture>
-</a>
-
 **Explore the boundary between an application and its host.** A Rust workspace connects a CLI, a local JSON-RPC daemon, and GTK controls, with per-app Wine prefixes, permission policies, and sandboxed execution. **Experimental:** Wine is the only implemented backend, and compatibility evidence is limited.
 
 `Rust` `Linux` `Wine` `GTK 4` `JSON-RPC` `bubblewrap`
 
 [Repository](https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux) · [Architecture](https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux/blob/main/docs/ARCHITECTURE.md) · [Validation record](https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux/blob/main/docs/VALIDATION.md)
+
+</details>
+
+## Public engineering console
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/overview-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/dashboard/overview-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/overview-dark.svg">
+  <img src="assets/dashboard/overview-light.svg" width="100%" alt="Dated public GitHub console: repository, star, original, and featured-project counts, a 30-day public-event plot, and language byte shares. Exact values and definitions are available in the linked snapshot.">
+</picture>
+
+A dated view of public GitHub data, refreshed weekly. Events are returned activity, not commit or contribution totals; the feed is capped and may omit activity. Language bytes describe original repositories, excluding this profile, and are not skill ratings.
+
+[Public data snapshot](assets/dashboard/data.json) · [Metric definitions and refresh schedule](docs/dashboard.md) · [GitHub activity](https://github.com/prabhuramkarki?tab=overview)
+
+<details>
+<summary>Detailed language, activity, and repository archive charts</summary>
+
+These charts use the same snapshot as the console. The archive counts currently public originals by creation year, including experiments; it is not a count of shipped products.
+
+<picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/languages-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/dashboard/languages-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/languages-dark.svg">
+  <img src="assets/dashboard/languages-light.svg" width="600" alt="Language byte distribution across original public repositories, excluding forks and this profile.">
+</picture>
+
+<picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/activity-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/dashboard/activity-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/activity-dark.svg">
+  <img src="assets/dashboard/activity-light.svg" width="600" alt="Returned public GitHub events across 30 dated UTC days. Events may be incomplete and are not commits or contributions.">
+</picture>
+
+<picture>
+  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/timeline-mobile-dark.svg">
+  <source media="(max-width: 480px)" srcset="assets/dashboard/timeline-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/timeline-dark.svg">
+  <img src="assets/dashboard/timeline-light.svg" width="600" alt="Currently public original repositories by creation year; forks, private, and deleted repositories are excluded.">
+</picture>
+
+</details>
 
 ## How I build
 
@@ -102,7 +130,7 @@ Start with the user’s task. Make the boundaries clear. Keep a feature understa
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/architecture/engineering-flow-mobile-dark.svg">
   <source media="(max-width: 480px)" srcset="assets/architecture/engineering-flow-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/architecture/engineering-flow-dark.svg">
-  <img src="assets/architecture/engineering-flow-light.svg" width="100%" alt="Illustrative architecture: interface, application, and work and data have clear boundaries. Linux, containers, and CI/CD support every layer. This pattern is not a claim about every project.">
+  <img src="assets/architecture/engineering-flow-light.svg" width="100%" alt="Illustrative system map: components and state connect through application APIs, validation, and authorization to queues, cache, and databases. Delivery supports all layers. This is a conceptual pattern, not a deployed topology.">
 </picture>
 
 | Area | What I pay attention to |
@@ -123,39 +151,6 @@ Start with the user’s task. Make the boundaries clear. Keep a feature understa
 | Delivery | Linux, Git, Docker, Nginx, GitHub Actions |
 | Exploring | Rust, Linux internals, Flutter, React Native, developer tooling |
 
-## Public code, in context
-
-Repository language bytes describe the shape of the public codebase. They are influenced by repository size and GitHub’s language detection; they are **not skill ratings or measures of time spent**.
-
-<picture>
-  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/languages-mobile-dark.svg">
-  <source media="(max-width: 480px)" srcset="assets/dashboard/languages-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/languages-dark.svg">
-  <img src="assets/dashboard/languages-light.svg" width="600" alt="Language distribution by bytes across original public repositories. Forks and this profile repository are excluded. Full values are in the data snapshot.">
-</picture>
-
-<picture>
-  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/activity-mobile-dark.svg">
-  <source media="(max-width: 480px)" srcset="assets/dashboard/activity-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/activity-dark.svg">
-  <img src="assets/dashboard/activity-light.svg" width="600" alt="Returned public GitHub events during the dated 30-day window, shown daily on desktop or grouped into seven-day intervals on phones. The feed is capped at 300 events and may omit activity. Events are not commits or contributions.">
-</picture>
-
-The activity chart counts returned public events in currently public repositories I own. GitHub’s event feed is capped and delayed; an empty day means no event was returned. **This is a dated snapshot, refreshed weekly.** [Data, definitions, and limitations](docs/dashboard.md) · [GitHub activity](https://github.com/prabhuramkarki?tab=overview)
-
-<details>
-<summary>Explore the repository archive by creation year</summary>
-
-This chart groups currently public original repositories by the year they were created. It describes the visible archive, including small experiments; it is not a count of shipped products.
-
-<picture>
-  <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/dashboard/timeline-mobile-dark.svg">
-  <source media="(max-width: 480px)" srcset="assets/dashboard/timeline-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dashboard/timeline-dark.svg">
-  <img src="assets/dashboard/timeline-light.svg" width="600" alt="Currently public original repositories grouped by creation year. Forks, private repositories, and deleted repositories are excluded. Exact creation dates are available in the public data snapshot.">
-</picture>
-
-</details>
 
 ## Below the interface
 

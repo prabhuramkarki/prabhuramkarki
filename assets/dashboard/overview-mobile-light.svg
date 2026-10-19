@@ -1,20 +1,112 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="274" viewBox="0 0 360 274" role="img" aria-labelledby="title desc">
-<title id="title">Public engineering snapshot</title><desc id="desc">Public repos: 27 (Including forks); Stars: 1 (Across public repos); Originals: 24 (Excluding forks); Featured: 4 (Verified repositories)</desc>
-<rect x="8.5" y="8.5" width="165" height="109" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
-<text x="22" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#526477" text-anchor="start">Public repos</text>
-<text x="22" y="91" font-family="'Segoe UI', Arial, sans-serif" font-size="45" font-weight="700" fill="#17283B" text-anchor="start">27</text>
-<g transform="translate(145 65)"><path d="M0 3h18v14H0ZM4 0v3M4 7h10M4 11h7" stroke="#0969DA" stroke-width="1.5" fill="none" /></g>
-<rect x="186.5" y="8.5" width="165" height="109" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
-<text x="200" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#526477" text-anchor="start">Stars</text>
-<text x="200" y="91" font-family="'Segoe UI', Arial, sans-serif" font-size="45" font-weight="700" fill="#17283B" text-anchor="start">1</text>
-<g transform="translate(323 65)"><path d="M9 0l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1Z" stroke="#0969DA" stroke-width="1.5" fill="none" /></g>
-<rect x="8.5" y="128.5" width="165" height="109" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
-<text x="22" y="156" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#526477" text-anchor="start">Originals</text>
-<text x="22" y="211" font-family="'Segoe UI', Arial, sans-serif" font-size="45" font-weight="700" fill="#17283B" text-anchor="start">24</text>
-<g transform="translate(145 185)"><path d="M3 0v12h12V0M3 6h12M3 12v6" stroke="#0969DA" stroke-width="1.5" fill="none" /></g>
-<rect x="186.5" y="128.5" width="165" height="109" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
-<text x="200" y="156" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#526477" text-anchor="start">Featured</text>
-<text x="200" y="211" font-family="'Segoe UI', Arial, sans-serif" font-size="45" font-weight="700" fill="#17283B" text-anchor="start">4</text>
-<g transform="translate(323 185)"><path d="M0 0h7v7H0ZM11 0h7v7h-7ZM0 11h7v7H0ZM11 11h7v7h-7Z" stroke="#0969DA" stroke-width="1.5" fill="none" /></g>
-<text x="8" y="266" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#526477" text-anchor="start">GitHub / 2026-10-19 UTC</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="843" viewBox="0 0 360 843" role="img" aria-labelledby="title desc">
+<title id="title">Public engineering console</title><desc id="desc">Public repos: 27 (Including forks); Stars: 1 (Public repositories); Originals: 24 (Excluding forks); Featured: 4 (Verified source). 43 returned events from 2026-09-20 to 2026-10-19; capped and possibly incomplete. Language shares represent repository bytes, not proficiency.</desc>
+<defs><linearGradient id="surface" x2="0" y2="1"><stop stop-color="#E7F0F7"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><linearGradient id="area" x2="0" y2="1"><stop stop-color="#00745A" stop-opacity=".4"/><stop offset="1" stop-color="#00745A" stop-opacity=".02"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#BDCEDC" stroke-opacity=".24"/></pattern><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect x="0.5" y="0.5" width="359" height="842" rx="6" fill="#F4F8FC" stroke="#BDCEDC"/>
+<rect x="1" y="43" width="358" height="799" rx="0" fill="url(#grid)" stroke="none"/>
+<path d="M1 42H359" stroke="#BDCEDC" stroke-width="1.5" fill="none" />
+<text x="86" y="27" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B6174" text-anchor="start">public.profile</text>
+<circle cx="24" cy="22" r="4.5" fill="#FF6B6B" />
+<circle cx="42" cy="22" r="4.5" fill="#F4C45E" />
+<circle cx="60" cy="22" r="4.5" fill="#28C895" />
+<rect x="16" y="60" width="158" height="96" rx="4" fill="url(#surface)" stroke="#BDCEDC"/>
+<path d="M30 76h20" stroke="#00745A" stroke-width="2" fill="none" />
+<text x="30" y="103" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#4B6174" text-anchor="start">Public repos</text>
+<text x="30" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="600" fill="#14293B" text-anchor="start">27</text>
+<path d="M144 126v13h14v-13Z" stroke="#075FBF" stroke-width="1.3" fill="none" />
+<rect x="186" y="60" width="158" height="96" rx="4" fill="url(#surface)" stroke="#BDCEDC"/>
+<path d="M200 76h20" stroke="#00745A" stroke-width="2" fill="none" />
+<text x="200" y="103" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#4B6174" text-anchor="start">Stars</text>
+<text x="200" y="143" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="600" fill="#14293B" text-anchor="start">1</text>
+<path d="M314 126v13h14v-13Z" stroke="#075FBF" stroke-width="1.3" fill="none" />
+<rect x="16" y="170" width="158" height="96" rx="4" fill="url(#surface)" stroke="#BDCEDC"/>
+<path d="M30 186h20" stroke="#00745A" stroke-width="2" fill="none" />
+<text x="30" y="213" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#4B6174" text-anchor="start">Originals</text>
+<text x="30" y="253" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="600" fill="#14293B" text-anchor="start">24</text>
+<path d="M144 236v13h14v-13Z" stroke="#075FBF" stroke-width="1.3" fill="none" />
+<rect x="186" y="170" width="158" height="96" rx="4" fill="url(#surface)" stroke="#BDCEDC"/>
+<path d="M200 186h20" stroke="#00745A" stroke-width="2" fill="none" />
+<text x="200" y="213" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#4B6174" text-anchor="start">Featured</text>
+<text x="200" y="253" font-family="'Segoe UI', Arial, sans-serif" font-size="40" font-weight="600" fill="#14293B" text-anchor="start">4</text>
+<path d="M314 236v13h14v-13Z" stroke="#075FBF" stroke-width="1.3" fill="none" />
+<rect x="16" y="294" width="328" height="224" rx="4" fill="#FFFFFF" stroke="#BDCEDC"/>
+<text x="34" y="325" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#4B6174" text-anchor="start">Public events / 30 UTC dates</text>
+<text x="34" y="356" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="400" fill="#00745A" text-anchor="start">43 returned events</text>
+<path d="M51 473.0H326" stroke="#BDCEDC" stroke-width="0.7" fill="none" />
+<text x="43" y="477.0" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="400" fill="#4B6174" text-anchor="end">0</text>
+<path d="M51 426.6H326" stroke="#BDCEDC" stroke-width="0.7" fill="none" />
+<text x="43" y="430.6" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="400" fill="#4B6174" text-anchor="end">8</text>
+<path d="M51 386.0H326" stroke="#BDCEDC" stroke-width="0.7" fill="none" />
+<text x="43" y="390.0" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="400" fill="#4B6174" text-anchor="end">15</text>
+<rect x="51.0" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="60.17" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="69.33" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="78.5" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="87.67" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="96.83" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="106.0" y="432.4" width="7.17" height="40.6" rx="0" fill="#00745A" stroke="none" data-events="7"/>
+<rect x="115.17" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="124.33" y="467.2" width="7.17" height="5.8" rx="0" fill="#00745A" stroke="none" data-events="1"/>
+<rect x="133.5" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="142.67" y="391.8" width="7.17" height="81.2" rx="0" fill="#00745A" stroke="none" data-events="14"/>
+<rect x="151.83" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="161.0" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="170.17" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="179.33" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="188.5" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="197.67" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="206.83" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="216.0" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="225.17" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="234.33" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="243.5" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="252.67" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="261.83" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="271.0" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="280.17" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="289.33" y="386.0" width="7.17" height="87.0" rx="0" fill="#00745A" stroke="none" data-events="15"/>
+<rect x="298.5" y="467.2" width="7.17" height="5.8" rx="0" fill="#00745A" stroke="none" data-events="1"/>
+<rect x="307.67" y="473.0" width="7.17" height="0.0" rx="0" fill="#00745A" stroke="none" data-events="0"/>
+<rect x="316.83" y="444.0" width="7.17" height="29.0" rx="0" fill="#00745A" stroke="none" data-events="5"/>
+<path d="M55.58 473.00L64.75 473.00L73.92 473.00L83.08 473.00L92.25 473.00L101.42 473.00L110.58 432.40L119.75 473.00L128.92 467.20L138.08 473.00L147.25 391.80L156.42 473.00L165.58 473.00L174.75 473.00L183.92 473.00L193.08 473.00L202.25 473.00L211.42 473.00L220.58 473.00L229.75 473.00L238.92 473.00L248.08 473.00L257.25 473.00L266.42 473.00L275.58 473.00L284.75 473.00L293.92 386.00L303.08 467.20L312.25 473.00L321.42 444.00L321.42 473L55.58 473Z" stroke="none" stroke-width="0" fill="url(#area)" />
+<path d="M55.58 473.00L64.75 473.00L73.92 473.00L83.08 473.00L92.25 473.00L101.42 473.00L110.58 432.40L119.75 473.00L128.92 467.20L138.08 473.00L147.25 391.80L156.42 473.00L165.58 473.00L174.75 473.00L183.92 473.00L193.08 473.00L202.25 473.00L211.42 473.00L220.58 473.00L229.75 473.00L238.92 473.00L248.08 473.00L257.25 473.00L266.42 473.00L275.58 473.00L284.75 473.00L293.92 386.00L303.08 467.20L312.25 473.00L321.42 444.00" stroke="#00745A" stroke-width="1.5" fill="none" />
+<text x="51" y="496" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B6174" text-anchor="start">Sep 20</text>
+<text x="326" y="496" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#4B6174" text-anchor="end">Oct 19</text>
+<rect x="16" y="534" width="328" height="264" rx="4" fill="#FFFFFF" stroke="#BDCEDC"/>
+<text x="34" y="565" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#4B6174" text-anchor="start">Language bytes / originals</text>
+<g data-language="Rust" data-share="62.2">
+<text x="34" y="597" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#14293B" text-anchor="start">Rust</text>
+<text x="326" y="597" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="400" fill="#4B6174" text-anchor="end">62.2%</text>
+<rect x="34" y="605" width="292" height="4" rx="2" fill="#E7F0F7" stroke="none"/>
+<rect x="34" y="605" width="181.63" height="4" rx="2" fill="#00745A" stroke="none"/>
+</g>
+<g data-language="PHP" data-share="17.9">
+<text x="34" y="627" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#14293B" text-anchor="start">PHP</text>
+<text x="326" y="627" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="400" fill="#4B6174" text-anchor="end">17.9%</text>
+<rect x="34" y="635" width="292" height="4" rx="2" fill="#E7F0F7" stroke="none"/>
+<rect x="34" y="635" width="52.24" height="4" rx="2" fill="#075FBF" stroke="none"/>
+</g>
+<g data-language="JavaScript" data-share="6.5">
+<text x="34" y="657" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#14293B" text-anchor="start">JavaScript</text>
+<text x="326" y="657" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="400" fill="#4B6174" text-anchor="end">6.5%</text>
+<rect x="34" y="665" width="292" height="4" rx="2" fill="#E7F0F7" stroke="none"/>
+<rect x="34" y="665" width="19.12" height="4" rx="2" fill="#00745A" stroke="none"/>
+</g>
+<g data-language="Vue" data-share="5.6">
+<text x="34" y="687" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#14293B" text-anchor="start">Vue</text>
+<text x="326" y="687" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="400" fill="#4B6174" text-anchor="end">5.6%</text>
+<rect x="34" y="695" width="292" height="4" rx="2" fill="#E7F0F7" stroke="none"/>
+<rect x="34" y="695" width="16.42" height="4" rx="2" fill="#075FBF" stroke="none"/>
+</g>
+<g data-language="CSS" data-share="4.8">
+<text x="34" y="717" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#14293B" text-anchor="start">CSS</text>
+<text x="326" y="717" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="400" fill="#4B6174" text-anchor="end">4.8%</text>
+<rect x="34" y="725" width="292" height="4" rx="2" fill="#E7F0F7" stroke="none"/>
+<rect x="34" y="725" width="13.99" height="4" rx="2" fill="#00745A" stroke="none"/>
+</g>
+<g data-language="Other" data-share="2.9">
+<text x="34" y="747" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#14293B" text-anchor="start">Other</text>
+<text x="326" y="747" font-family="'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="400" fill="#4B6174" text-anchor="end">2.9%</text>
+<rect x="34" y="755" width="292" height="4" rx="2" fill="#E7F0F7" stroke="none"/>
+<rect x="34" y="755" width="8.6" height="4" rx="2" fill="#075FBF" stroke="none"/>
+</g>
+<text x="20" y="819" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="400" fill="#4B6174" text-anchor="start">2026-10-19 UTC / public-data snapshot</text>
 </svg>

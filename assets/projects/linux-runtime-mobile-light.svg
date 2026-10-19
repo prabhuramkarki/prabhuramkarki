@@ -1,18 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="258" viewBox="0 0 360 258" role="img" aria-labelledby="title desc">
-<title id="title">Windows apps on Linux</title><desc id="desc">An app meets its host. Systems exploration. Source-based illustration, not a screenshot or live demo.</desc>
-<rect x="0.5" y="0.5" width="359" height="257" rx="12" fill="#F6F8FA" stroke="#CBD5E1"/>
-<text x="24" y="31" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#087580" text-anchor="start">Systems exploration</text>
-<text x="23" y="68" font-family="'Segoe UI', Arial, sans-serif" font-size="25" font-weight="700" fill="#17283B" text-anchor="start">Windows apps on Linux</text>
-<path d="M24 86H336" stroke="#CBD5E1" stroke-width="1.5" fill="none" />
-<g transform="translate(24 102) scale(1)">
-<rect x="0" y="0" width="146" height="52" rx="5" fill="#EAF0F6" stroke="#CBD5E1"/>
-<text x="73" y="32" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#17283B" text-anchor="middle">GTK client</text>
-<rect x="166" y="0" width="146" height="52" rx="5" fill="#EAF0F6" stroke="#CBD5E1"/>
-<text x="239" y="32" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#17283B" text-anchor="middle">JSON-RPC daemon</text>
-<rect x="0" y="85" width="146" height="52" rx="5" fill="#EAF0F6" stroke="#CBD5E1"/>
-<text x="73" y="117" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#17283B" text-anchor="middle">runtime CLI</text>
-<rect x="166" y="85" width="146" height="52" rx="5" fill="#EAF0F6" stroke="#CBD5E1"/>
-<text x="239" y="117" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#17283B" text-anchor="middle">Wine + prefix</text>
-<path d="M146 26H166M239 52V70H73V85M146 111H166" stroke="#0969DA" stroke-width="2" fill="none" />
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="254" viewBox="0 0 360 254" role="img" aria-labelledby="title desc">
+<title id="title">Windows runtime</title><desc id="desc">Windows applications on a Linux host. Per-app prefixes and sandbox policies. Systems exploration. experimental / Wine-backed. Repository card, not an application screenshot.</desc>
+<defs><linearGradient id="surface" x2="0" y2="1"><stop stop-color="#E7F0F7"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient><linearGradient id="area" x2="0" y2="1"><stop stop-color="#00745A" stop-opacity=".4"/><stop offset="1" stop-color="#00745A" stop-opacity=".02"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#BDCEDC" stroke-opacity=".24"/></pattern><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect x="0.5" y="0.5" width="359" height="253" rx="8" fill="url(#surface)" stroke="#BDCEDC"/>
+<path d="M18 1H342" stroke="#075FBF" stroke-width="1.5" fill="none" />
+<g transform="translate(23 24)"><path d="M12 0l12 7v14l-12 7L0 21V7ZM0 7l12 7 12-7M12 14v14" stroke="#075FBF" stroke-width="1.5" fill="none" /></g>
+<text x="62" y="44" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="600" fill="#14293B" text-anchor="start">Windows runtime</text>
+<path d="M322 27h14v14M336 27l-16 16M331 48h-18V30" stroke="#4B6174" stroke-width="1.3" fill="none" />
+<text x="24" y="91" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#14293B" text-anchor="start">Windows applications on a Linux host.</text>
+<text x="24" y="119" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#4B6174" text-anchor="start">Per-app prefixes and sandbox policies.</text>
+<rect x="24" y="143" width="58" height="29" rx="3" fill="#E7F0F7" stroke="#BDCEDC"/>
+<text x="35" y="163" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#075FBF" text-anchor="start">Rust</text>
+<rect x="90" y="143" width="58" height="29" rx="3" fill="#E7F0F7" stroke="#BDCEDC"/>
+<text x="101" y="163" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#075FBF" text-anchor="start">Wine</text>
+<rect x="156" y="143" width="67" height="29" rx="3" fill="#E7F0F7" stroke="#BDCEDC"/>
+<text x="167" y="163" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#075FBF" text-anchor="start">GTK 4</text>
+<path d="M24 194H336" stroke="#BDCEDC" stroke-width="1.5" fill="none" />
+<text x="24" y="220" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#00745A" text-anchor="start">Systems exploration</text>
+<text x="24" y="242" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="400" fill="#4B6174" text-anchor="start">experimental / Wine-backed</text>
 </svg>

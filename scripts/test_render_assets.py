@@ -55,7 +55,7 @@ class RenderTests(unittest.TestCase):
             day['count']=10
         content=render_dashboard(self.data)['activity-dark.svg']
         root=ET.fromstring(content)
-        bars=[r for r in root.iter('{http://www.w3.org/2000/svg}rect') if r.get('fill')=='#39C5CF']
+        bars=[r for r in root.iter('{http://www.w3.org/2000/svg}rect') if r.get('fill')==PALETTES['dark']['cyan']]
         self.assertTrue(bars)
         self.assertTrue(all(float(bar.get('y'))>=128 for bar in bars))
 
@@ -95,7 +95,7 @@ class RenderTests(unittest.TestCase):
         for name,content in render_dashboard(self.data).items():
             if name.startswith('activity-') and name.endswith('dark.svg'):
                 root=ET.fromstring(content)
-                bars=[r for r in root.iter('{http://www.w3.org/2000/svg}rect') if r.get('fill')=='#39C5CF']
+                bars=[r for r in root.iter('{http://www.w3.org/2000/svg}rect') if r.get('fill')==PALETTES['dark']['cyan']]
                 self.assertEqual(bars,[])
                 self.assertIn('0 events in this snapshot',content)
 
@@ -110,6 +110,19 @@ class RenderTests(unittest.TestCase):
                     with self.subTest(theme=theme,text=foreground,surface=surface):
                         a,b=sorted([luminance(palette[foreground]),luminance(palette[surface])])
                         self.assertGreaterEqual((b+.05)/(a+.05),4.5)
+
+    def test_console_keeps_language_shares_and_activity_counts_truthful(self):
+        self.data['languages']=[{'name':'Rust','bytes':3},{'name':'PHP','bytes':1}]
+        for day in self.data['activity']['days']:
+            day['count']=0
+        self.data['activity']['days'][0]['count']=9
+        self.data['activity']['events_count']=9
+        for name in ['overview-dark.svg','overview-mobile-dark.svg']:
+            root=ET.fromstring(render_dashboard(self.data)[name])
+            rows=root.findall('.//{http://www.w3.org/2000/svg}g[@data-language]')
+            self.assertEqual([(r.get('data-language'),r.get('data-share')) for r in rows],[('Rust','75.0'),('PHP','25.0')])
+            bars=root.findall('.//{http://www.w3.org/2000/svg}rect[@data-events]')
+            self.assertEqual(sum(int(b.get('data-events')) for b in bars),9)
 
 
 if __name__=='__main__':
