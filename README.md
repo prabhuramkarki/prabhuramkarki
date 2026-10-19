@@ -20,25 +20,25 @@ Four public builds, from product interfaces to developer tools and Linux runtime
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/code-shell-mobile-dark.svg">
   <source media="(max-width: 480px)" srcset="assets/projects/code-shell-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/projects/code-shell-dark.svg">
-  <img src="assets/projects/code-shell-light.svg" width="440" alt="Code Shell: a native Rust coding agent. Streaming providers, permission checks, diff-based edits, and a terminal REPL.">
+  <img src="assets/projects/code-shell-light.svg" width="48%" alt="Code Shell: a native Rust coding agent. Streaming providers, permission checks, diff-based edits, and a terminal REPL.">
 </picture></a>
 <a href="https://github.com/prabhuramkarki/easy-invoice"><picture>
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/easy-invoice-mobile-dark.svg">
   <source media="(max-width: 480px)" srcset="assets/projects/easy-invoice-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/projects/easy-invoice-dark.svg">
-  <img src="assets/projects/easy-invoice-light.svg" width="440" alt="Easy Invoice: a React and Django image OCR prototype. Tesseract extracts fields for database records and CSV output.">
+  <img src="assets/projects/easy-invoice-light.svg" width="48%" alt="Easy Invoice: a React and Django image OCR prototype. Tesseract extracts fields for database records and CSV output.">
 </picture></a>
 <a href="https://github.com/prabhuramkarki/manducart-v2"><picture>
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/manducart-mobile-dark.svg">
   <source media="(max-width: 480px)" srcset="assets/projects/manducart-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/projects/manducart-dark.svg">
-  <img src="assets/projects/manducart-light.svg" width="440" alt="ManduCart v2: Vue, Pinia, and Laravel storefront prototype with catalog, accounts, and cart operations. Checkout remains unfinished.">
+  <img src="assets/projects/manducart-light.svg" width="48%" alt="ManduCart v2: Vue, Pinia, and Laravel storefront prototype with catalog, accounts, and cart operations. Checkout remains unfinished.">
 </picture></a>
 <a href="https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux"><picture>
   <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/projects/linux-runtime-mobile-dark.svg">
   <source media="(max-width: 480px)" srcset="assets/projects/linux-runtime-mobile-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/projects/linux-runtime-dark.svg">
-  <img src="assets/projects/linux-runtime-light.svg" width="440" alt="Windows application runtime on Linux: an experimental Rust project using Wine, per-app prefixes, and sandbox policies.">
+  <img src="assets/projects/linux-runtime-light.svg" width="48%" alt="Windows application runtime on Linux: an experimental Rust project using Wine, per-app prefixes, and sandbox policies.">
 </picture></a>
 </p>
 

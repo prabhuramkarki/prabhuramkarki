@@ -10,7 +10,7 @@ The profile uses three connected references: terminal precision for the identity
 - System sans-serif display text sits beside JetBrains Mono, Consolas, and monospace terminal labels. No font downloads are required.
 - Terminal window bars, a fine grid, gradient panels, and cube motifs form the common visual vocabulary. SVG filters are confined to small decorative node highlights.
 - The desktop hero is 960 × 390; the phone hero is 360 × 374. Name, role, stack, and location remain static and readable.
-- Project images are individually linked and placed in a native HTML paragraph. Their 440-pixel display width creates two columns when sufficient space is available; GitHub's image max-width behavior makes them stack on narrow screens. There are no CSS layout dependencies or HTML layout tables.
+- Project images are individually linked and placed in a native HTML paragraph. Each uses 48% of the available content width, keeping two cards per row in a 2 × 2 gallery. Text links and expanded implementation notes provide readable alternatives to the smaller card text on phones. There are no CSS layout dependencies or HTML layout tables.
 - Card summaries, technologies, and project status remain visible. Expanded notes preserve implementation details, contributions, and source links; adjacent text links provide an alternative to the image links.
 - The dashboard follows the gallery. It combines four KPIs, a public-event plot, and language byte shares in a single console. On phones the panels stack. Full chart breakdowns are available in a disclosure.
 - Architecture uses isometric nodes and explicit connections. The map is labeled conceptual; it is not an observed deployment or live service map.
