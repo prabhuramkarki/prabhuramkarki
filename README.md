@@ -1,184 +1,108 @@
-<!-- ═══════════════════════════════  HERO  ═══════════════════════════════ -->
+<!-- Identity -->
+<h1>
+  <picture>
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/hero-mobile.svg">
+    <source media="(max-width: 480px)" srcset="assets/hero-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero.svg">
+    <img src="assets/hero-light.svg" width="100%" alt="Prabhuram Karki — Full-stack software engineer. From the interface down. Kathmandu, Nepal.">
+  </picture>
+</h1>
 
-<div align="center">
+I build web applications across the interface, API, and data model. My main stack is **Vue, Nuxt, Quasar, and Laravel**. I care about how a product feels to use and how its code feels to maintain.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:0D2A5C,100:1F6FEB&height=200&section=header&text=Prabhuram%20Karki&fontSize=44&fontColor=E6EDF3&fontAlignY=36&desc=Fullstack%20Developer%20%E2%80%A2%20Kathmandu%2C%20Nepal&descSize=16&descAlignY=56&descAlign=50&animation=fadeIn" width="100%" alt="Prabhuram Karki — Fullstack Developer"/>
+That curiosity extends below the web stack: my public work includes a Rust coding agent and an experimental Windows application runtime for Linux.
 
-<a href="https://www.prabhuramkarki.com.np">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=620&height=40&lines=%24+building+full-stack+web+apps+end-to-end;%24+Vue+%2F+Nuxt+%2F+Quasar+on+the+front;%24+Laravel+%26+Node+on+the+back;%24+shipping+from+the+Himalayas+%F0%9F%8F%94%EF%B8%8F" alt="Typing intro"/>
-</a>
+**[Explore my portfolio](https://www.prabhuramkarki.com.np)** &nbsp; / &nbsp; [Selected work](#selected-work) &nbsp; / &nbsp; [Get in touch](#lets-build-something-useful)
 
-<br/>
+## Selected work
 
-I build fast, maintainable web products — from the database schema to the last pixel of the UI.
+Three projects across product development, developer tooling, and systems exploration. The links lead to source and implementation details.
 
-<br/>
+### [Easy Invoice](https://github.com/prabhuramkarki/easy-invoice)
 
-<a href="https://www.prabhuramkarki.com.np"><img src="https://img.shields.io/badge/View_Portfolio-1F6FEB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-&nbsp;
-<a href="mailto:prabhuramkarki07@gmail.com"><img src="https://img.shields.io/badge/Hire_%2F_Collaborate-0D1117?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email"/></a>
+**From an invoice image to structured data.** A full-stack project that reduces manual transcription by extracting invoice fields with OCR.
 
-<br/><br/>
+My work connects a React upload interface to a Django REST API. The backend converts images to grayscale, runs Tesseract, extracts fields such as invoice number, date, vendor, and total with regular expressions, then saves the results and appends a CSV record.
 
-<a href="https://linkedin.com/in/prabhuramkarki"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=58A6FF" alt="LinkedIn"/></a>
-<a href="https://twitter.com/prabhuramkarki_"><img src="https://img.shields.io/badge/@prabhuramkarki__-0D1117?style=flat-square&logo=x&logoColor=58A6FF" alt="X / Twitter"/></a>
-<img src="https://komarev.com/ghpvc/?username=prabhuramkarki&label=profile%20views&color=1F6FEB&style=flat-square" alt="Profile views"/>
+`React` `TypeScript` `Tailwind CSS` `Django REST Framework` `Tesseract`
 
-</div>
+[Upload interface](https://github.com/prabhuramkarki/easy-invoice/blob/main/frontend/src/components/InvoiceForm.tsx) &nbsp; / &nbsp; [Processing pipeline](https://github.com/prabhuramkarki/easy-invoice/blob/main/backend/invoices/views.py)
 
-<br/>
+### [Code Shell](https://github.com/prabhuramkarki/code-shell-rs)
 
-<!-- ═══════════════════════════════  ABOUT  ═══════════════════════════════ -->
+**A coding agent in a native Rust CLI.** Developer tooling for working with a codebase through an interactive terminal or scripted prompts.
 
-## ◈ &nbsp;`whoami`
+My work includes the terminal REPL and command handling. The workspace separates the agent loop, streaming model providers, tools, and CLI into four crates. Tool calls pass through an approval engine; filesystem edits produce diffs, and shell execution has a timeout.
 
-```ts
-const prabhuram = {
-  role       : "Fullstack Developer",
-  basedIn    : "Kathmandu, Nepal",
-  primary    : ["Vue", "Nuxt", "Quasar", "Laravel"],
-  alsoShips  : ["React", "React Native", "Node", "Express", "MongoDB"],
-  focus      : "Clean architecture, fast UIs, maintainable APIs",
-  currently  : "Native Windows Runtime For Linux",
-  learning   : "Rust",
-  openTo     : ["Freelance", "Full-time roles", "Open-source collabs"],
-};
-```
+`Rust` `Tokio` `SSE` `CLI` `LLM tool calling`
 
-<br/>
+[Agent loop](https://github.com/prabhuramkarki/code-shell-rs/blob/main/crates/core/src/agent.rs) &nbsp; / &nbsp; [Terminal REPL](https://github.com/prabhuramkarki/code-shell-rs/blob/main/crates/cli/src/repl.rs)
 
-<!-- ═══════════════════════════════  WHAT I DO  ═══════════════════════════════ -->
+### [Windows application runtime on Linux](https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux)
 
-## ◈ &nbsp;What I Bring
+**Exploring the boundary between an application and its host.** A pre-1.0 Linux runtime that manages Windows applications through Wine, with a separate prefix for each app.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+My work includes GTK desktop controls and runtime validation. The architecture connects a CLI, a local JSON-RPC daemon, and a desktop client. It explores per-app permissions, sandboxed execution, and pinned dependency downloads with integrity checks.
 
-### ⚡ Frontend that feels fast
-Component-driven interfaces in **Vue, Nuxt and Quasar** — SSR, responsive layouts and state that stays predictable as apps grow.
+**Experimental:** Wine is the only implemented backend. Compatibility evidence is limited; this is not a general replacement for Windows.
 
-</td>
-<td width="50%" valign="top">
+`Rust` `Linux` `Wine` `GTK 4` `JSON-RPC` `bubblewrap`
 
-### 🧱 Backends that stay tidy
-REST APIs with **Laravel** and **Node/Express** — auth, validation, queues and data models designed to be extended, not rewritten.
+[Architecture and API](https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux/blob/main/docs/API.md) &nbsp; / &nbsp; [Validation record](https://github.com/prabhuramkarki/native-windows-application-runtime-on-linux/blob/main/docs/VALIDATION.md)
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+## How I approach the stack
 
-### 📱 Beyond the browser
-Cross-platform mobile with **React Native** and Quasar, plus hardware tinkering with **Arduino**.
+**Interface.** Component-driven Vue, Nuxt, and Quasar applications: responsive layouts, predictable state, and clear interactions.
 
-</td>
-<td width="50%" valign="top">
+**Application.** Laravel and Node/Express APIs: validation, authentication, authorization, business logic, and background jobs with boundaries that keep features understandable.
 
-### 🔁 End-to-end ownership
-From schema design in **MySQL / MongoDB** to deployment on **Azure / Firebase** — one person, the whole stack.
+**Data and delivery.** Data modeling in MySQL and MongoDB, with attention to how the application is configured, deployed, and maintained.
 
-</td>
-</tr>
-</table>
+The thread through all three: follow a feature from what the user needs to what the system must do, and keep that path easy to reason about.
 
-<br/>
+## Engineering toolbox
 
-<!-- ═══════════════════════════════  PROJECTS  ═══════════════════════════════ -->
-<!--
-## ◈ &nbsp;Featured Work
+| Where | Technologies |
+| :--- | :--- |
+| Main stack | Vue.js, Nuxt.js, Quasar, Laravel, PHP |
+| Interface and state | TypeScript, JavaScript, React, Tailwind CSS, Redux |
+| APIs | Node.js, Express, Django REST Framework |
+| Data | MySQL, PostgreSQL, MongoDB |
+| Tools and environments | Git, GitHub, Linux, Docker, Firebase, Azure |
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<details>
+<summary>Beyond the web stack</summary>
 
-#### [`[PROJECT_ONE_NAME]`]([PROJECT_ONE_URL])
-[ONE_SENTENCE: what it does and who it's for]
+I’m learning **Rust** through developer tools and Linux runtime work. I’m interested in where application architecture meets operating-system behavior: processes, permissions, dependencies, and the boundaries between them.
 
-<sub>`Nuxt` · `Laravel` · `MySQL`</sub> &nbsp; [Live →]([DEMO_URL_1])
+I also explore **React Native** and **Arduino**, and welcome open-source collaboration.
 
-</td>
-<td width="50%" valign="top">
+</details>
 
-#### [`[PROJECT_TWO_NAME]`]([PROJECT_TWO_URL])
-[ONE_SENTENCE: what it does and who it's for]
+## Development in the open
 
-<sub>`React` · `Node` · `MongoDB`</sub> &nbsp; [Live →]([DEMO_URL_2])
+[Browse my repositories](https://github.com/prabhuramkarki?tab=repositories) &nbsp; / &nbsp; [Follow public activity](https://github.com/prabhuramkarki?tab=overview)
 
-</td>
-</tr>
-</table>
--->
+Follow the work through source, commit history, and the notes alongside each project.
 
-<!-- Optional: swap the tables above for pinned-repo cards
-<a href="https://github.com/prabhuramkarki/[REPO_NAME]"><img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=prabhuramkarki&repo=[REPO_NAME]&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9"/></a>
--->
+<details>
+<summary>A different view of my GitHub contributions</summary>
 
-<br/>
+An animated view of my GitHub contribution calendar.
 
-<!-- ═══════════════════════════════  STACK  ═══════════════════════════════ -->
-
-## ◈ &nbsp;Stack
-
-<table>
-<tr>
-<td align="right" width="140"><sub><b>FRONTEND</b></sub></td>
-<td><img src="https://skillicons.dev/icons?i=vue,nuxtjs,react,ts,js,tailwind,redux&theme=dark" alt="Frontend"/></td>
-</tr>
-<tr>
-<td align="right"><sub><b>BACKEND</b></sub></td>
-<td><img src="https://skillicons.dev/icons?i=laravel,php,nodejs,express&theme=dark" alt="Backend"/></td>
-</tr>
-<tr>
-<td align="right"><sub><b>DATA & CLOUD</b></sub></td>
-<td><img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase,azure&theme=dark" alt="Data and cloud"/></td>
-</tr>
-<tr>
-<td align="right"><sub><b>MOBILE & TOOLS</b></sub></td>
-<td><img src="https://skillicons.dev/icons?i=androidstudio,arduino,git,linux&theme=dark" alt="Mobile and tools"/></td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ═══════════════════════════════  STATS  ═══════════════════════════════ -->
-<!--
-## ◈ &nbsp;Activity
-
-<div align="center">
-
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=prabhuramkarki&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&include_all_commits=true&count_private=true&rank_icon=github" height="160" alt="GitHub stats"/>
-&nbsp;
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=prabhuramkarki&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" height="160" alt="Top languages"/>
--->
-<img src="https://streak-stats.demolab.com?user=prabhuramkarki&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=1F6FEB&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&dates=8B949E&sideLabels=8B949E&sideNums=E6EDF3" width="85%" alt="Streak"/>
-
-<br/><br/>
-
-
-<!-- Snake animation: needs the GitHub Action (see instructions). Remove this block if you skip it. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabhuramkarki/prabhuramkarki/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prabhuramkarki/prabhuramkarki/output/github-snake.svg"/>
-  <img src="https://raw.githubusercontent.com/prabhuramkarki/prabhuramkarki/output/github-snake-dark.svg" width="100%" alt="Contribution snake"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prabhuramkarki/prabhuramkarki/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/prabhuramkarki/prabhuramkarki/output/github-snake.svg" width="100%" alt="Snake animation tracing Prabhuram Karki’s GitHub contribution calendar. Follow the public activity link above for GitHub’s accessible contribution history.">
 </picture>
 
-</div>
+</details>
 
-<br/>
+## Let’s build something useful
 
-<!-- ═══════════════════════════════  FOOTER  ═══════════════════════════════ -->
+I’m open to **full-stack engineering roles, freelance projects, and open-source collaboration**. Reach out with a product to build, a system to improve, or an engineering question worth exploring.
 
-<div align="center">
+**[prabhuramkarki07@gmail.com](mailto:prabhuramkarki07@gmail.com)**
 
-### Have a product that needs building?
+[Portfolio](https://www.prabhuramkarki.com.np) &nbsp; / &nbsp; [LinkedIn](https://linkedin.com/in/prabhuramkarki) &nbsp; / &nbsp; [GitHub](https://github.com/prabhuramkarki) &nbsp; / &nbsp; [X](https://twitter.com/prabhuramkarki_)
 
-I'm open to freelance work, full-time roles and interesting open-source collaborations.
-
-<a href="mailto:prabhuramkarki07@gmail.com"><img src="https://img.shields.io/badge/Start_a_conversation_→-1F6FEB?style=for-the-badge" alt="Contact"/></a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,50:0D2A5C,100:0D1117&height=110&section=footer" width="100%" alt=""/>
-
-</div>
+<img src="assets/signature.svg" width="100%" alt="">

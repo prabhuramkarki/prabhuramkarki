@@ -1,20 +1,51 @@
-name: Generate snake
+name: Update contribution map
+
 on:
-  schedule: [{ cron: "0 0 * * *" }]
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
-permissions:
-  contents: write
+
+permissions: {}
+
+concurrency:
+  group: contribution-map
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate light and dark SVGs
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: prabhuramkarki
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#58A6FF&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
-      - uses: crazy-max/ghaction-github-pages@v4
+            dist/github-snake.svg?color_snake=#0969da&color_dots=#eff2f5,#c6e4ff,#80bfff,#218bff,#0550ae
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#39c5cf&color_dots=#161b22,#163356,#205493,#388bfd,#79c0ff
+
+      - name: Respect reduced motion and validate SVGs
+        shell: python
+        run: |
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          # Keep the calendar cells visible; hide the snake and progress bar.
+          rule = "@media (prefers-reduced-motion: reduce) { * { animation: none !important; } .s, .u { display: none; } }"
+          for name in ("github-snake.svg", "github-snake-dark.svg"):
+              path = Path("dist") / name
+              svg = path.read_text()
+              assert svg.count("</svg>") == 1, f"Unexpected SVG output: {name}"
+              svg = svg.replace("</svg>", f"<style>{rule}</style></svg>")
+              root = ET.fromstring(svg)
+              assert root.tag == "{http://www.w3.org/2000/svg}svg"
+              assert "prefers-reduced-motion: reduce" in svg
+              path.write_text(svg)
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4
         with:
           target_branch: output
           build_dir: dist
