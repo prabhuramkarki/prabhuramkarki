@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26",
+  "updated_at": "2026-11-02",
   "user": "prabhuramkarki",
   "metrics": {
     "public_repos": 27,
@@ -176,7 +176,7 @@
       "url": "https://github.com/prabhuramkarki/prabhuramkarki",
       "default_branch": "main",
       "created_at": "2023-04-17T08:09:38Z",
-      "pushed_at": "2026-10-19T09:28:37Z",
+      "pushed_at": "2026-10-26T12:28:16Z",
       "stars": 0,
       "fork": false
     },
@@ -316,40 +316,12 @@
     }
   ],
   "activity": {
-    "window_start": "2026-09-27",
-    "window_end": "2026-10-26",
-    "events_returned": 56,
-    "events_count": 44,
+    "window_start": "2026-10-04",
+    "window_end": "2026-11-02",
+    "events_returned": 34,
+    "events_count": 29,
     "limited": false,
     "days": [
-      {
-        "date": "2026-09-27",
-        "count": 0
-      },
-      {
-        "date": "2026-09-28",
-        "count": 1
-      },
-      {
-        "date": "2026-09-29",
-        "count": 0
-      },
-      {
-        "date": "2026-09-30",
-        "count": 14
-      },
-      {
-        "date": "2026-10-01",
-        "count": 0
-      },
-      {
-        "date": "2026-10-02",
-        "count": 0
-      },
-      {
-        "date": "2026-10-03",
-        "count": 0
-      },
       {
         "date": "2026-10-04",
         "count": 0
@@ -440,6 +412,34 @@
       },
       {
         "date": "2026-10-26",
+        "count": 0
+      },
+      {
+        "date": "2026-10-27",
+        "count": 0
+      },
+      {
+        "date": "2026-10-28",
+        "count": 0
+      },
+      {
+        "date": "2026-10-29",
+        "count": 0
+      },
+      {
+        "date": "2026-10-30",
+        "count": 0
+      },
+      {
+        "date": "2026-10-31",
+        "count": 0
+      },
+      {
+        "date": "2026-11-01",
+        "count": 0
+      },
+      {
+        "date": "2026-11-02",
         "count": 0
       }
     ]
