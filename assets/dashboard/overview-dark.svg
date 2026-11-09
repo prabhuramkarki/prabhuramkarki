@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="516" viewBox="0 0 960 516" role="img" aria-labelledby="title desc">
-<title id="title">Public engineering console</title><desc id="desc">Public repos: 27 (Including forks); Stars: 1 (Public repositories); Originals: 24 (Excluding forks); Featured: 4 (Verified source). 29 returned events from 2026-10-04 to 2026-11-02; capped and possibly incomplete. Language shares represent repository bytes, not proficiency.</desc>
+<title id="title">Public engineering console</title><desc id="desc">Public repos: 27 (Including forks); Stars: 1 (Public repositories); Originals: 24 (Excluding forks); Featured: 4 (Verified source). 29 returned events from 2026-10-11 to 2026-11-09; capped and possibly incomplete. Language shares represent repository bytes, not proficiency.</desc>
 <defs><linearGradient id="surface" x2="0" y2="1"><stop stop-color="#162B3A"/><stop offset="1" stop-color="#0E1924"/></linearGradient><linearGradient id="area" x2="0" y2="1"><stop stop-color="#1BE0AC" stop-opacity=".4"/><stop offset="1" stop-color="#1BE0AC" stop-opacity=".02"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#294253" stroke-opacity=".24"/></pattern><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect x="0.5" y="0.5" width="959" height="515" rx="6" fill="#090F17" stroke="#294253"/>
 <rect x="1" y="43" width="958" height="472" rx="0" fill="url(#grid)" stroke="none"/>
 <path d="M1 42H959" stroke="#294253" stroke-width="1.5" fill="none" />
@@ -45,17 +45,17 @@
 <rect x="88.53" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="105.3" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="122.07" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<rect x="138.83" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<rect x="155.6" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
+<rect x="138.83" y="287.0" width="14.77" height="141.0" rx="0" fill="#1BE0AC" stroke="none" data-events="15"/>
+<rect x="155.6" y="418.6" width="14.77" height="9.4" rx="0" fill="#1BE0AC" stroke="none" data-events="1"/>
 <rect x="172.37" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<rect x="189.13" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
+<rect x="189.13" y="305.8" width="14.77" height="122.2" rx="0" fill="#1BE0AC" stroke="none" data-events="13"/>
 <rect x="205.9" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="222.67" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="239.43" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<rect x="256.2" y="287.0" width="14.77" height="141.0" rx="0" fill="#1BE0AC" stroke="none" data-events="15"/>
-<rect x="272.97" y="418.6" width="14.77" height="9.4" rx="0" fill="#1BE0AC" stroke="none" data-events="1"/>
+<rect x="256.2" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
+<rect x="272.97" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="289.73" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<rect x="306.5" y="305.8" width="14.77" height="122.2" rx="0" fill="#1BE0AC" stroke="none" data-events="13"/>
+<rect x="306.5" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="323.27" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="340.03" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="356.8" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
@@ -70,10 +70,10 @@
 <rect x="507.7" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="524.47" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="541.23" y="428.0" width="14.77" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<path d="M63.38 428.00L80.15 428.00L96.92 428.00L113.68 428.00L130.45 428.00L147.22 428.00L163.98 428.00L180.75 428.00L197.52 428.00L214.28 428.00L231.05 428.00L247.82 428.00L264.58 287.00L281.35 418.60L298.12 428.00L314.88 305.80L331.65 428.00L348.42 428.00L365.18 428.00L381.95 428.00L398.72 428.00L415.48 428.00L432.25 428.00L449.02 428.00L465.78 428.00L482.55 428.00L499.32 428.00L516.08 428.00L532.85 428.00L549.62 428.00L549.62 428L63.38 428Z" stroke="none" stroke-width="0" fill="url(#area)" />
-<path d="M63.38 428.00L80.15 428.00L96.92 428.00L113.68 428.00L130.45 428.00L147.22 428.00L163.98 428.00L180.75 428.00L197.52 428.00L214.28 428.00L231.05 428.00L247.82 428.00L264.58 287.00L281.35 418.60L298.12 428.00L314.88 305.80L331.65 428.00L348.42 428.00L365.18 428.00L381.95 428.00L398.72 428.00L415.48 428.00L432.25 428.00L449.02 428.00L465.78 428.00L482.55 428.00L499.32 428.00L516.08 428.00L532.85 428.00L549.62 428.00" stroke="#1BE0AC" stroke-width="1.5" fill="none" />
-<text x="55" y="451" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A5B8C9" text-anchor="start">Oct 04</text>
-<text x="558" y="451" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A5B8C9" text-anchor="end">Nov 02</text>
+<path d="M63.38 428.00L80.15 428.00L96.92 428.00L113.68 428.00L130.45 428.00L147.22 287.00L163.98 418.60L180.75 428.00L197.52 305.80L214.28 428.00L231.05 428.00L247.82 428.00L264.58 428.00L281.35 428.00L298.12 428.00L314.88 428.00L331.65 428.00L348.42 428.00L365.18 428.00L381.95 428.00L398.72 428.00L415.48 428.00L432.25 428.00L449.02 428.00L465.78 428.00L482.55 428.00L499.32 428.00L516.08 428.00L532.85 428.00L549.62 428.00L549.62 428L63.38 428Z" stroke="none" stroke-width="0" fill="url(#area)" />
+<path d="M63.38 428.00L80.15 428.00L96.92 428.00L113.68 428.00L130.45 428.00L147.22 287.00L163.98 418.60L180.75 428.00L197.52 305.80L214.28 428.00L231.05 428.00L247.82 428.00L264.58 428.00L281.35 428.00L298.12 428.00L314.88 428.00L331.65 428.00L348.42 428.00L365.18 428.00L381.95 428.00L398.72 428.00L415.48 428.00L432.25 428.00L449.02 428.00L465.78 428.00L482.55 428.00L499.32 428.00L516.08 428.00L532.85 428.00L549.62 428.00" stroke="#1BE0AC" stroke-width="1.5" fill="none" />
+<text x="55" y="451" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A5B8C9" text-anchor="start">Oct 11</text>
+<text x="558" y="451" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A5B8C9" text-anchor="end">Nov 09</text>
 <rect x="596" y="195" width="344" height="278" rx="4" fill="#0E1924" stroke="#294253"/>
 <text x="614" y="226" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#A5B8C9" text-anchor="start">Language bytes / originals</text>
 <g data-language="Rust" data-share="62.2">
@@ -112,6 +112,6 @@
 <rect x="614" y="416" width="308" height="4" rx="2" fill="#162B3A" stroke="none"/>
 <rect x="614" y="416" width="9.07" height="4" rx="2" fill="#65C9F3" stroke="none"/>
 </g>
-<text x="20" y="492" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A5B8C9" text-anchor="start">2026-11-02 UTC / public-data snapshot</text>
+<text x="20" y="492" font-family="'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="400" fill="#A5B8C9" text-anchor="start">2026-11-09 UTC / public-data snapshot</text>
 <text x="940" y="492" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A5B8C9" text-anchor="end">Events ≠ commits / bytes ≠ proficiency</text>
 </svg>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="843" viewBox="0 0 360 843" role="img" aria-labelledby="title desc">
-<title id="title">Public engineering console</title><desc id="desc">Public repos: 27 (Including forks); Stars: 1 (Public repositories); Originals: 24 (Excluding forks); Featured: 4 (Verified source). 29 returned events from 2026-10-04 to 2026-11-02; capped and possibly incomplete. Language shares represent repository bytes, not proficiency.</desc>
+<title id="title">Public engineering console</title><desc id="desc">Public repos: 27 (Including forks); Stars: 1 (Public repositories); Originals: 24 (Excluding forks); Featured: 4 (Verified source). 29 returned events from 2026-10-11 to 2026-11-09; capped and possibly incomplete. Language shares represent repository bytes, not proficiency.</desc>
 <defs><linearGradient id="surface" x2="0" y2="1"><stop stop-color="#162B3A"/><stop offset="1" stop-color="#0E1924"/></linearGradient><linearGradient id="area" x2="0" y2="1"><stop stop-color="#1BE0AC" stop-opacity=".4"/><stop offset="1" stop-color="#1BE0AC" stop-opacity=".02"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#294253" stroke-opacity=".24"/></pattern><filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect x="0.5" y="0.5" width="359" height="842" rx="6" fill="#090F17" stroke="#294253"/>
 <rect x="1" y="43" width="358" height="799" rx="0" fill="url(#grid)" stroke="none"/>
 <path d="M1 42H359" stroke="#294253" stroke-width="1.5" fill="none" />
@@ -41,17 +41,17 @@
 <rect x="69.33" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="78.5" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="87.67" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<rect x="96.83" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<rect x="106.0" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
+<rect x="96.83" y="386.0" width="7.17" height="87.0" rx="0" fill="#1BE0AC" stroke="none" data-events="15"/>
+<rect x="106.0" y="467.2" width="7.17" height="5.8" rx="0" fill="#1BE0AC" stroke="none" data-events="1"/>
 <rect x="115.17" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<rect x="124.33" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
+<rect x="124.33" y="397.6" width="7.17" height="75.4" rx="0" fill="#1BE0AC" stroke="none" data-events="13"/>
 <rect x="133.5" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="142.67" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="151.83" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<rect x="161.0" y="386.0" width="7.17" height="87.0" rx="0" fill="#1BE0AC" stroke="none" data-events="15"/>
-<rect x="170.17" y="467.2" width="7.17" height="5.8" rx="0" fill="#1BE0AC" stroke="none" data-events="1"/>
+<rect x="161.0" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
+<rect x="170.17" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="179.33" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<rect x="188.5" y="397.6" width="7.17" height="75.4" rx="0" fill="#1BE0AC" stroke="none" data-events="13"/>
+<rect x="188.5" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="197.67" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="206.83" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="216.0" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
@@ -66,10 +66,10 @@
 <rect x="298.5" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="307.67" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
 <rect x="316.83" y="473.0" width="7.17" height="0.0" rx="0" fill="#1BE0AC" stroke="none" data-events="0"/>
-<path d="M55.58 473.00L64.75 473.00L73.92 473.00L83.08 473.00L92.25 473.00L101.42 473.00L110.58 473.00L119.75 473.00L128.92 473.00L138.08 473.00L147.25 473.00L156.42 473.00L165.58 386.00L174.75 467.20L183.92 473.00L193.08 397.60L202.25 473.00L211.42 473.00L220.58 473.00L229.75 473.00L238.92 473.00L248.08 473.00L257.25 473.00L266.42 473.00L275.58 473.00L284.75 473.00L293.92 473.00L303.08 473.00L312.25 473.00L321.42 473.00L321.42 473L55.58 473Z" stroke="none" stroke-width="0" fill="url(#area)" />
-<path d="M55.58 473.00L64.75 473.00L73.92 473.00L83.08 473.00L92.25 473.00L101.42 473.00L110.58 473.00L119.75 473.00L128.92 473.00L138.08 473.00L147.25 473.00L156.42 473.00L165.58 386.00L174.75 467.20L183.92 473.00L193.08 397.60L202.25 473.00L211.42 473.00L220.58 473.00L229.75 473.00L238.92 473.00L248.08 473.00L257.25 473.00L266.42 473.00L275.58 473.00L284.75 473.00L293.92 473.00L303.08 473.00L312.25 473.00L321.42 473.00" stroke="#1BE0AC" stroke-width="1.5" fill="none" />
-<text x="51" y="496" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A5B8C9" text-anchor="start">Oct 04</text>
-<text x="326" y="496" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A5B8C9" text-anchor="end">Nov 02</text>
+<path d="M55.58 473.00L64.75 473.00L73.92 473.00L83.08 473.00L92.25 473.00L101.42 386.00L110.58 467.20L119.75 473.00L128.92 397.60L138.08 473.00L147.25 473.00L156.42 473.00L165.58 473.00L174.75 473.00L183.92 473.00L193.08 473.00L202.25 473.00L211.42 473.00L220.58 473.00L229.75 473.00L238.92 473.00L248.08 473.00L257.25 473.00L266.42 473.00L275.58 473.00L284.75 473.00L293.92 473.00L303.08 473.00L312.25 473.00L321.42 473.00L321.42 473L55.58 473Z" stroke="none" stroke-width="0" fill="url(#area)" />
+<path d="M55.58 473.00L64.75 473.00L73.92 473.00L83.08 473.00L92.25 473.00L101.42 386.00L110.58 467.20L119.75 473.00L128.92 397.60L138.08 473.00L147.25 473.00L156.42 473.00L165.58 473.00L174.75 473.00L183.92 473.00L193.08 473.00L202.25 473.00L211.42 473.00L220.58 473.00L229.75 473.00L238.92 473.00L248.08 473.00L257.25 473.00L266.42 473.00L275.58 473.00L284.75 473.00L293.92 473.00L303.08 473.00L312.25 473.00L321.42 473.00" stroke="#1BE0AC" stroke-width="1.5" fill="none" />
+<text x="51" y="496" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A5B8C9" text-anchor="start">Oct 11</text>
+<text x="326" y="496" font-family="'JetBrains Mono', Consolas, monospace" font-size="13" font-weight="400" fill="#A5B8C9" text-anchor="end">Nov 09</text>
 <rect x="16" y="534" width="328" height="264" rx="4" fill="#0E1924" stroke="#294253"/>
 <text x="34" y="565" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400" fill="#A5B8C9" text-anchor="start">Language bytes / originals</text>
 <g data-language="Rust" data-share="62.2">
@@ -108,5 +108,5 @@
 <rect x="34" y="755" width="292" height="4" rx="2" fill="#162B3A" stroke="none"/>
 <rect x="34" y="755" width="8.6" height="4" rx="2" fill="#65C9F3" stroke="none"/>
 </g>
-<text x="20" y="819" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="400" fill="#A5B8C9" text-anchor="start">2026-11-02 UTC / public-data snapshot</text>
+<text x="20" y="819" font-family="'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="400" fill="#A5B8C9" text-anchor="start">2026-11-09 UTC / public-data snapshot</text>
 </svg>
